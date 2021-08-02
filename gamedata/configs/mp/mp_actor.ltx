@@ -16,7 +16,7 @@ crouch_coef       =  0.45 ; 0.2
 climb_coef        = 0.9
 air_control_param   = 0.05 ;0.03 ;0.1
 max_item_mass     = 35 ;35.0;40.0
-run_coef                = 2.7 ;2.6 ;2.5  
+run_coef                = 2.1 ;2.6 ;2.5  
 sprint_koef         = 1.8 ;2.15 ; 2.5 1.6 ;1.5 ; было 2.0
 run_back_coef     = 1.8
 walk_back_coef      = 0.9
@@ -109,7 +109,7 @@ disp_crouch_factor      = -0.35;-0.5;-0.2   ;уменьшение если актер сидит
 disp_crouch_no_acc_factor = -0.75;-1.0;-0.4   ;уменьшение если актер сидит + no acceleration
 disp_jump_factor      = 30.0;7.0; 2.0
 
-body_remove_time = 5000        ;время уничтожения трупа (с учетом TimeFactor)
+body_remove_time = 500000        ;время уничтожения трупа (с учетом TimeFactor)
 sleep_time_factor = 400   ;во сколько раз время идет быстрее, когда актер спит
 
 ;---STEP MANAGER------------------------------------------------------
@@ -219,6 +219,8 @@ sleep_power         = 1.0   ;1.5
 sleep_satiety       = 1.0   ;0.8
 sleep_radiation       = 1.0   ;1.1
 sleep_psy_health      = 1.0
+
+health_restore_v              	= 0.05		;0.0001
 
 ;;;;;;;;
 ;actor_condition only
