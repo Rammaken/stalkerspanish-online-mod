@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_wpn_gp100">
+		<text>Ruger GP100</text>
+	</string>
+	<string id="st_wpn_gp100_descr">
+		<text>El GP100 es una familia / linea de revolveres de doble accion de cinco, seis, siete o diez disparos fabricados por Sturm, Ruger y Co., fabricados en los Estados Unidos.</text>
+	</string>
+	<string id="st_wpn_mp7">
+		<text>MP7</text>
+	</string>
+	<string id="st_wpn_mp7_descr">
+		<text>El MP7 es un subfusil aleman fabricado por Heckler & Koch que utiliza un cartucho poco comun: el 4,6 x 30. El diseno se basa en los requisitos de la OTAN en 1989 para un arma lo bastante portatil como una pistola, a la vez que tenga la suficiente potencia para penetrar chalecos antibalas.</text>
+	</string>
+	<string id="st_wpn_glock18">
+		<text>Glock-18</text>
+	</string>
+	<string id="st_wpn_glock18_descr">
+		<text>La Glock, a veces llamada por su fabricante Glock «Safe Action» Pistol (pistola de accion segura Glock), es una serie de pistolas semiautomaticas, o automaticas en el caso de la Glock 18, disenadas y producidas por el fabricante Glock Ges.m.b.H. de Deutsch-Wagram, Austria.</text>
+	</string>
+	<string id="st_wpn_mp5sd">
+		<text>MP5SD</text>
+	</string>
+	<string id="st_wpn_mp5sd_descr">
+		<text>A pesar de su elemento silenciador integrado, tiene la misma longitud y forma que una metralleta sin silenciador. A diferencia de la mayoria de las ametralladoras silenciadas convencionales, dispara tipos de municion estandar con el mismo efecto. No es necesario el uso de municion subsonica especial. El elemento silenciador integrado suprime el destello de boca de manera extremadamente eficaz, por lo que el arma tambien es excelente para operaciones nocturnas con amplificadores de poca luz. No es de extranar que la MP5SD sea una de las ametralladoras silenciadas mas precisas de su tipo.</text>
+	</string>
+</string_table>

@@ -1,102 +1,105 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
+	<string id="st_unload_magazine_after_pickup">
+		<text>Descargar arma despues de recogerla</text>
+	</string>
+	<string id="st_unload_magazine_all">
+		<text>descargar todas las armas</text>
+	</string>
 	<string id="st_unequip">
-		<text>wegstecken</text>
+		<text>desequipar</text>
 	</string>
 	<string id="st_donate">
-		<text>Spenden</text>
+		<text>Donar</text>
 	</string>
 	<string id="st_loading_lights">
-		<text>Lade Lichter</text>
+		<text>Cargando luces</text>
 	</string>
 	<string id="st_client_connecting_to">
-		<text>CLIENT: Verbinde zu</text>
+		<text>CLIENTE: Conectando a</text>
 	</string>
 	<string id="st_client_spawning">
-		<text>CLIENT: Spawne</text>
+		<text>CLIENTE: Spawning</text>
 	</string>
 	<string id="st_client_synchronising">
-		<text>CLIENT: Synchronisiere</text>
+		<text>CLIENTE: Sincronizando</text>
 	</string>
 	<string id="st_creating_new_game">
-		<text>Erstelle neues Spiel</text>
+		<text>Creando nueva partida</text>
 	</string>
 	<string id="ui_mm_always_active">
-		<text>Immer aktiv</text>
+		<text>Siempre activo</text>
 	</string>
 	<string id="ui_mm_detail_radius">
-		<text>Grasdetail Radius</text>
+		<text>Radio de detalle de la hierba</text>
 	</string>
 	<string id="ui_mm_ui_style">
-		<text>Interfacedesign</text>
+		<text>Estilo de interfaz</text>
 	</string>
 	<string id="ui_style_default">
 		<text>Call of Pripyat</text>
 	</string>
 	<string id="ui_mm_simplified_item_pickup">
-		<text>Vereinf. Aufheben (SoC)</text>
+		<text>Recogida de objetos simplificada</text>
 	</string>
 	<string id="ui_mm_multi_item_pickup">
-		<text>Wiederh. Aufheben (CoP)</text>
+		<text>Recogida de varios articulos</text>
 	</string>
 	<string id="ui_mm_loadingstages">
-		<text>Ladefortschritt anzeigen</text>
+		<text>Mostrar estado de cargado</text>
 	</string>
 	<string id="renderer_gl">
-		<text>Erw. Volldyn. Beleuchtung (OpenGL)</text>
+		<text>Iluminacion dinamica mejorada (OpenGL)</text>
 	</string>
 	<string id="ui_mm_r2_fxaa">
 		<text>FXAA</text>
 	</string>
 	<string id="ui_mm_r2_smap_size">
-		<text>Qualitat der Schattenkarte</text>
+		<text>Calidad del mapa de sombras</text>
 	</string>
 	<string id="ui_mm_r3_dynamic_wet_surfaces_opt">
-		<text>Nassflachenoptimierung</text>
+		<text>Optimizacion de las superficies humedas</text>
 	</string>
 	<string id="ui_mm_r3_dynamic_wet_surfaces_near">
-		<text>Nassflachen Nahbereich</text>
+		<text>Superficies humedas cerca de dist.</text>
 	</string>
 	<string id="ui_mm_r3_dynamic_wet_surfaces_far">
-		<text>Nassflachen Fernbereich</text>
+		<text>Superficies humedas muy dist.</text>
 	</string>
 	<string id="ui_mm_r3_dynamic_wet_surfaces_sm_res">
-		<text>Nassflachen Qualitat</text>
+		<text>Calidad de las superficies humedas</text>
 	</string>
 	<string id="ui_mm_fov">
-		<text>Blickwinkel (FOV)</text>
+		<text>Campo de vision</text>
 	</string>
+	<string id="st_switch_version_invitation">
+		<text>?De verdad quieres iniciar otra version del juego?</text>
+	</string>	
 	<string id="ui_mm_localization">
-		<text>Sprache</text>
+		<text>Idioma</text>
+	</string>
+	<string id="ui_mm_gamepad_setup">
+		<text>Configuracion del gamepad</text>
 	</string>
 	<string id="eng">
-		<text>Englisch (English)</text>
+		<text>Ingles</text>
 	</string>
 	<string id="fra">
-		<text>Franzosisch (French)</text>
+		<text>Frances</text>
 	</string>
 	<string id="ger">
-		<text>Deutsch (German)</text>
+		<text>Aleman</text>
 	</string>
 	<string id="ita">
-		<text>Italienisch (Italian)</text>
+		<text>Italiano</text>
 	</string>
 	<string id="pol">
-		<text>Polnisch (Polish)</text>
+		<text>Polaco</text>
 	</string>
 	<string id="rus">
-		<text>Russissch (Russian)</text>
+		<text>Ruso</text>
 	</string>
 	<string id="spa">
-		<text>Spanisch (Spanish)</text>
-	</string>
-	<string id="cze">
-		<text>Tschechisch (Tzech)</text>
-	</string>
-	<string id="ukr">
-		<text>Ukrainisch (Ukrainian)</text>
-	</string>
-	<string id="jpn">
-		<text>Japanisch (Japanese)</text>
+		<text>Espanol</text>
 	</string>
 </string_table>
