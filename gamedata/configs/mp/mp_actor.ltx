@@ -25,7 +25,9 @@ run_strafe_coef     = 0.7
 visual          = actors\stalker_hero\stalker_hero_1.ogf
 destroyed_vis_name    = dynamics\Dead_Body\skelet_crash
 walk_accel              = 22 ;19 
-texture_prefetch = actors\stalker_mp\mp_team_green_1, actors\stalker_mp\mp_team_green_2, actors\stalker_mp\mp_team_green_3, actors\stalker_mp\mp_team_green_4, actors\stalker_mp\mp_team_blue_1, actors\stalker_mp\mp_team_blue_2, actors\stalker_mp\mp_team_blue_3, actors\stalker_mp\mp_team_blue_4, actors\stalker_mp\mp_team_green_addon_fr, actors\stalker_mp\mp_team_green_addon_uk, actors\stalker_mp\mp_team_blue_addon_de, actors\stalker_mp\mp_team_blue_addon_us, actors\stalker_mp\mp_team_green_armor_military, actors\stalker_mp\mp_team_green_armor_sci, actors\stalker_mp\mp_team_green_armor_exo, actors\stalker_mp\mp_team_blue_armor_military, actors\stalker_mp\mp_team_blue_armor_sci, actors\stalker_mp\mp_team_blue_armor_exo
+texture_prefetch    = actors\stalker_mp\mp_team_green_1, actors\stalker_mp\mp_team_green_2, actors\stalker_mp\mp_team_green_3, actors\stalker_mp\mp_team_green_4, actors\stalker_mp\mp_team_blue_1, actors\stalker_mp\mp_team_blue_2, actors\stalker_mp\mp_team_blue_3, actors\stalker_mp\mp_team_blue_4, actors\stalker_mp\mp_team_green_addon_fr, actors\stalker_mp\mp_team_green_addon_uk, actors\stalker_mp\mp_team_blue_addon_de, actors\stalker_mp\mp_team_blue_addon_us, actors\stalker_mp\mp_team_green_armor_military, actors\stalker_mp\mp_team_green_armor_sci, actors\stalker_mp\mp_team_green_armor_exo, actors\stalker_mp\mp_team_blue_armor_military, actors\stalker_mp\mp_team_blue_armor_sci, actors\stalker_mp\mp_team_blue_armor_exo
+
+script_binding          = bind_init.mp_actor_init
 
 ;радиус в котром над предметами выводятся их названия
 pickup_info_radius                = 5        ;3
@@ -44,7 +46,7 @@ pickup_info_radius    = 5 ;3
 ef_creature_type    = 17            ; option for evaluation functions
 
 ; attach params
-attachable_items    = mp_device_torch,attachable_item,hand_radio
+attachable_items    = mp_device_torch,device_torch,attachable_item,hand_radio
 
 ph_box0_center      = 0.0,  0.9,  0.0
 ph_box0_size      = 0.35, 0.9,  0.35
@@ -109,7 +111,7 @@ disp_crouch_factor      = -0.35;-0.5;-0.2   ;уменьшение если актер сидит
 disp_crouch_no_acc_factor = -0.75;-1.0;-0.4   ;уменьшение если актер сидит + no acceleration
 disp_jump_factor      = 30.0;7.0; 2.0
 
-body_remove_time = 500000        ;время уничтожения трупа (с учетом TimeFactor)
+body_remove_time = 5000        ;время уничтожения трупа (с учетом TimeFactor)
 sleep_time_factor = 400   ;во сколько раз время идет быстрее, когда актер спит
 
 ;---STEP MANAGER------------------------------------------------------
@@ -206,7 +208,7 @@ morale_v          = 0.001       ;скорость восстановления морали
 health_hit_part       = 1.0         ;процент хита, уходящий на отнимание здоровья
 power_hit_part        = 0.1;0.01          ;процент хита, уходящий на отнимание силы
 psy_health_v        = 0.1         ;скорость восстановления psy-здоровья
-alcohol_v         = -0.03
+alcohol_v         = -0.003
 max_walk_weight       = 60
 
 ;открытые раны
@@ -225,7 +227,7 @@ health_restore_v              	= 0.05		;0.0001
 ;;;;;;;;
 ;actor_condition only
 
-jump_power        = 0 ;0.07 ;              ;умешьшение силы с прыжком без учета веса ноши
+jump_power        = 0.15 ;0.07 ;              ;умешьшение силы с прыжком без учета веса ноши
 jump_weight_power     = 0.0       ;0.045          ;умешьшение силы с прыжком с учетом веса ноши, для максимального допустимого веса
 overweight_jump_k     = 0       ;10         ;коэффициент влияние перегрузки прыжок с весом (умножается на jump_weight_power)
 
