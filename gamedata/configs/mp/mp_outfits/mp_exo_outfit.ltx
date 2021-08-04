@@ -1,0 +1,73 @@
+[mp_exo_outfit]:exo_outfit
+$spawn              	= "network\outfits\mp_exo_outfit"
+class				= EQU_EXO
+inv_name			= mp_exo_outfit_name
+inv_name_short		= mp_exo_outfit_name
+description			= mp_exo_outfit_description
+
+burn_protection = 0.9 ;0.5		;коэффициенты защиты костюма персонажем
+strike_protection = 0.7 ;0.4
+shock_protection = 0.9
+wound_protection = 0.6
+radiation_protection = 0.0001
+telepatic_protection = 0.6
+chemical_burn_protection = 0.9 ;0,5 
+explosion_protection = 0.5 ;0.3
+hit_fraction_actor = 0.2
+
+immunities_sect			= mp_exo_outfit_immunities
+bones_koeff_protection = mp_exo_outfit_bones
+
+;запрещение режима Sprint для Актера
+sprint_allowed			= true
+
+control_inertion_factor = 0.1
+
+[mp_exo_outfit_immunities]:sect_exo_outfit_immunities
+burn_immunity				= 0.1 ;0.2				;коэффициенты иммунитета самого костюма
+strike_immunity				= 0.6 ;0.7 
+shock_immunity				= 0.1 ;1.00
+wound_immunity				= 0.10
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.05 ;1.00
+explosion_immunity			= 0.3
+fire_wound_immunity			= 0.02
+
+[mp_exo_outfit_bones]
+hit_fraction		= 0.2
+
+bip01_pelvis 		 = 1.2, 0.5 ;1.1, 0.4
+bip01_spine 		 = 1.2, 0.5 ;1.1, 0.4
+bip01_spine1 		 = 1.2, 0.5 ;1.1, 0.4
+bip01_spine2 		 = 1.2, 0.5 ;1.1, 0.4
+bip01_neck 		 = 0.8, 0.45 ;0.7, 0.35
+bip01_head 		 = 0.8, 0.45 ;0.7, 0.35
+eyelid_1 		 = 0.8, 0.45 ;0.7, 0.35
+eye_left 		 = 2.1, 0.02 ;2.0, 0.01
+eye_right 		 = 2.1, 0.02 ;2.0, 0.01
+jaw_1 		 	 = 0.8, 0.5 ;0.7, 0.4
+
+bip01_l_clavicle	 = 1.2, 0.5 ;1.1, 0.4
+bip01_l_upperarm	 = 1.2, 0.5 ;1.1, 0.4
+bip01_l_forearm	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_l_hand	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_l_finger0	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_l_finger1	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_l_finger2	 	 = 1.2, 0.5 ;1.1, 0.4
+
+bip01_r_clavicle	 = 1.2, 0.5 ;1.1, 0.4
+bip01_r_upperarm	 = 1.2, 0.5 ;1.1, 0.4
+bip01_r_forearm	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_r_hand	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_r_finger0	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_r_finger1	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_r_finger2	 	 = 1.2, 0.5 ;1.1, 0.4
+
+bip01_l_thigh	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_l_calf	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_l_foot	 	 = 1.2, 0.5 ;1.1, 0.4
+
+bip01_r_thigh	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_r_calf	 	 = 1.2, 0.5 ;1.1, 0.4
+bip01_r_foot	 	 = 1.2, 0.5 ;1.1, 0.4

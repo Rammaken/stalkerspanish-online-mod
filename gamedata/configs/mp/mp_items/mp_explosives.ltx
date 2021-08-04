@@ -1,0 +1,35 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Explosivos
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[mp_wood_stolb_fixed]
+GroupControlSection = spawn_group
+$spawn        = "network\fixed_objects\stolb"
+class       = P_DSTRBL
+remove_time     = 30		; after this time  unbreaked removable bone will be removed
+;script_binding      = bind_physic_object.init
+visual		 		= dynamics\wood_doski\wood_stolb_fixed.ogf
+
+immunities_sect			= mp_wood_stolb_fixed_immunities
+
+[mp_wood_stolb_fixed_immunities]
+burn_immunity            = 0.6 
+strike_immunity          = 0.005
+shock_immunity           = 0.002
+wound_immunity           = 0
+radiation_immunity       = 0
+telepatic_immunity       = 0
+chemical_burn_immunity   = 0
+explosion_immunity       = 0.6
+fire_wound_immunity      = 0.6
+
+[mp_explosive_fuelcan]:explosive_fuelcan
+$spawn 				= "network\explosive\fuelcan"
+class				= II_EXPLO
+
+[mp_explosive_tank]:explosive_tank
+$spawn 				= "network\explosive\tank"
+class				= II_EXPLO
+
+[mp_explosive_barrel]:explosive_barrel
+$spawn 				= "network\explosive\barrel_low"
+class				= II_EXPLO
