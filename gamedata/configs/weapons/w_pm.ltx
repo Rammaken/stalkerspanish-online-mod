@@ -161,18 +161,15 @@ zoom_rotate_time				= 0.25
 scope_zoom_factor	    		= 55
 
 ;звуки
-snd_draw						= weapons\pistol_draw
+snd_draw						= weapons\pm\pm_draw
 snd_holster						= weapons\pistol_holster
-snd_shoot						= weapons\pm_shoot
-snd_shoot1						= weapons\pm_shoot1
-
-snd_empty						= weapons\pistol_empty
-snd_reload						= weapons\pm_reload
-snd_shoot_grenade       = weapons\gen_grenshoot
-snd_reload_grenade      = weapons\gen_grenload, 1.0, 0.8
-snd_switch              = weapons\groza_switch, 1.0, 0.5
-snd_bore				= weapons\draw_silent
-snd_bore1				= weapons\draw_silent
+snd_shoot						= weapons\pm\pm_shoot
+snd_shoot1						= weapons\pm\pm_shoot1
+snd_silncer_shot				= weapons\pm\pm_shoot_sil
+snd_empty						= weapons\pm\pm_empty
+snd_reload						= weapons\pm\pm_reload
+snd_reload_empty				= weapons\pm\pm_reload_empty
+snd_close						= weapons\generic_close
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; silencer
@@ -187,7 +184,7 @@ silencer_y 						= -16
 
 ;silencer_flame_particles 	= weapons\generic_weapon01
 silencer_smoke_particles 	= weapons\generic_shoot_00
-snd_silncer_shot				= weapons\pm_shoot_sil
+snd_silncer_shot				= weapons\n_pb_shot
 silencer_light_color			= 0.6,0.5,0.3
 silencer_light_range			= 0.01
 silencer_light_var_color	= 0.05
@@ -211,35 +208,36 @@ attach_place_idx				= 0
 shell_point					= 0,0,0
 shell_bone              	= gilza
 
-
 fire_point					= 0,0,0
 fire_bone               	= muzzle
 
-anm_show				= pm_draw
-anm_show_empty			= pm_draw
-anm_hide            	= pm_holster
-anm_hide_empty			= pm_holster
+anm_show						= pm_draw
+anm_show_empty					= pm_draw, opened
+anm_hide            			= pm_holster
+anm_hide_empty					= pm_holster, opened
+		
+anm_idle            			= pm_idle
+anm_idle_empty      			= pm_idle, opened
+anm_shots						= pm_shoot, shoot
+anm_shot_l						= pm_shoot, shoot_last
+anm_idle_aim					= pm_idle_aim
+anm_idle_aim_empty				= pm_idle_aim, opened
+		
+anm_reload						= pm_reload, reload
+anm_reload_empty				= pm_reload_empty, reload_empty
+anm_idle_moving					= pm_idle_moving
+anm_idle_moving_empty			= pm_idle_moving, opened
+anm_idle_moving_crouch			= pm_idle_crouch
+anm_idle_moving_crouch_empty	= pm_idle_crouch, opened
+anm_idle_sprint					= pm_idle_sprint
+anm_idle_sprint_empty			= pm_idle_sprint, opened
+anm_bore						= pm_idle_aim
+anm_bore_empty					= pm_idle_aim, opened
 
-anm_idle            	= pm_idle
-anm_idle_empty      	= pm_idle
-anm_shots				= pm_shoot, shoot
-anm_shot_l				= pm_shoot, shoot
-anm_idle_aim			= pm_idle_aim
-anm_idle_aim_empty		= pm_idle_aim
-
-anm_reload				= pm_reload, reload
-anm_reload_empty		= pm_reload, reload
-anm_idle_moving			= pm_idle_moving
-anm_idle_moving_empty	= pm_idle_moving
-anm_idle_sprint			= pm_idle_sprint
-anm_idle_sprint_empty	= pm_idle_sprint
-anm_bore				= pm_idle_bore
-anm_bore_empty			= pm_idle_bore
-
-aim_hud_offset_pos 			= -0.153,0.0765,-0.15
-aim_hud_offset_rot 			= 0.0285,0.0342,0.0
-aim_hud_offset_pos_16x9 	= -0.153,0.0765,-0.15
-aim_hud_offset_rot_16x9 	= 0.0285,0.0342,0.0
+aim_hud_offset_pos 			= -0.15475,0.0735,-0.15
+aim_hud_offset_rot 			= 0.0285,0.0364,0.0
+aim_hud_offset_pos_16x9 	= -0.15475,0.0735,-0.15
+aim_hud_offset_rot_16x9 	= 0.0285,0.0364,0.0
 
 gl_hud_offset_pos			= 0,0,0
 gl_hud_offset_rot			= 0,0,0

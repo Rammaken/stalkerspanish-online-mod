@@ -185,23 +185,21 @@ grenade_launcher_x      = 126                ; offset in inventory icon
 grenade_launcher_y      = 24
 
 ;звуки
-snd_draw						= weapons\pistol_draw
-snd_holster						= weapons\pistol_holster
-snd_shoot						= weapons\beretta_shoot
-snd_shoot1						= weapons\beretta_shoot1
+snd_draw						= weapons\walther_draw
+snd_holster						= weapons\generic_holster
+snd_shoot						= weapons\n_beretta_shot
 
 snd_empty						= weapons\pistol_empty
-snd_reload						= weapons\beretta_reload
+snd_reload						= weapons\beretta_reload, 0.8
 snd_shoot_grenade       = weapons\gen_grenshoot
 snd_reload_grenade      = weapons\gen_grenload, 1.0, 0.8
 snd_switch              = weapons\groza_switch, 1.0, 0.5
-snd_bore				= weapons\draw_silent
+snd_bore				= weapons\mp5_bore
 snd_bore1				= weapons\draw_silent
 
 ;silencer_flame_particles  = weapons\generic_weapon01
 silencer_smoke_particles 	= weapons\generic_shoot_00
-snd_silncer_shot			= weapons\beretta_shoot_sil
-snd_silncer_shot1			= weapons\beretta_shoot_sil1
+snd_silncer_shot			= weapons\n_pb_shot
 silencer_light_color		= 0.6,0.5,0.3
 silencer_light_range		= 0.01
 silencer_light_var_color	= 0.05
@@ -225,35 +223,36 @@ attach_place_idx				= 0
 shell_point					= 0,0,0
 shell_bone              	= gilza
 
-
 fire_point					= 0,0,0
 fire_bone               	= muzzle
 
-anm_show				= beretta_draw
-anm_show_empty			= beretta_draw
-anm_hide            	= beretta_holster
-anm_hide_empty			= beretta_holster
+anm_show						= beretta_draw
+anm_show_empty					= beretta_draw, opened
+anm_hide            			= beretta_holster
+anm_hide_empty					= beretta_holster, opened
+		
+anm_idle            			= beretta_idle
+anm_idle_empty      			= beretta_idle, opened
+anm_shots						= beretta_shoot, shoot
+anm_shot_l						= beretta_shoot, shoot_last
+anm_idle_aim					= beretta_idle_aim
+anm_idle_aim_empty				= beretta_idle_aim, opened
+		
+anm_reload						= beretta_reload, reload
+anm_reload_empty				= beretta_reload_empty, reload_empty
+anm_idle_moving					= beretta_idle_moving
+anm_idle_moving_empty			= beretta_idle_moving, opened
+anm_idle_moving_crouch			= beretta_idle_crouch
+anm_idle_moving_crouch_empty	= beretta_idle_crouch, opened
+anm_idle_sprint					= beretta_idle_sprint
+anm_idle_sprint_empty			= beretta_idle_sprint, opened
+anm_bore						= beretta_idle_aim
+anm_bore_empty					= beretta_idle_aim, opened
 
-anm_idle            	= beretta_idle
-anm_idle_empty      	= beretta_idle
-anm_shots				= beretta_shoot, shoot
-anm_shot_l				= beretta_shoot, shoot
-anm_idle_aim			= beretta_idle_aim
-anm_idle_aim_empty		= beretta_idle_aim
-
-anm_reload				= beretta_reload, reload
-anm_reload_empty		= beretta_reload, reload
-anm_idle_moving			= beretta_idle_moving
-anm_idle_moving_empty	= beretta_idle_moving
-anm_idle_sprint			= beretta_idle_sprint
-anm_idle_sprint_empty	= beretta_idle_sprint
-anm_bore				= beretta_idle_bore
-anm_bore_empty			= beretta_idle_bore
-
-aim_hud_offset_pos 			= -0.1535,0.0755,-0.15
-aim_hud_offset_rot 			= 0.035,0.0348,0.0
-aim_hud_offset_pos_16x9 	= -0.1535,0.0755,-0.15
-aim_hud_offset_rot_16x9 	= 0.035,0.0348,0.0
+aim_hud_offset_pos 			= -0.1544,0.0745,-0.15
+aim_hud_offset_rot 			= 0.0325,0.0352,0.0
+aim_hud_offset_pos_16x9 	= -0.1544,0.0745,-0.15
+aim_hud_offset_rot_16x9 	= 0.0325,0.0352,0.0
 
 gl_hud_offset_pos			= 0,0,0
 gl_hud_offset_rot			= 0,0,0

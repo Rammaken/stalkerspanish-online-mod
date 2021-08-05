@@ -178,23 +178,24 @@ silencer_x 					= 178							; offset in inventory icon
 silencer_y 					= -2
 
 ;звуки
-snd_draw                = weapons\ak74_draw
-snd_holster             = weapons\generic_holster
-snd_shoot               = weapons\ak74u_shoot
-snd_shoot1               = weapons\ak74u_shoot1
-
-snd_empty               = weapons\gen_empty, 0.5
-snd_reload              = weapons\ak74u_reload
-snd_shoot_grenade       = weapons\gen_grenshoot
-snd_reload_grenade      = weapons\gen_grenload, 1.0, 0.8
-snd_switch              = weapons\groza_switch, 1.0, 0.5
-snd_bore				= weapons\draw_silent
+snd_draw                	= weapons\rifle_draw
+snd_holster             	= weapons\rifle_holster
+snd_shoot               	= weapons\ak74u\aks74u_shoot
+snd_shoot1               	= weapons\ak74u\aks74u_shoot1
+snd_shoot2               	= weapons\ak74u\aks74u_shoot2
+snd_shoot3               	= weapons\ak74u\aks74u_shoot3
+snd_shoot4               	= weapons\ak74u\aks74u_shoot4
+snd_empty               	= weapons\ak_empty
+snd_reload              	= weapons\ak74u\aks74u_reload
+snd_reload_empty            = weapons\ak74u\aks74u_reload_empty
+snd_shoot_grenade       	= weapons\gp25_grenshoot
+snd_reload_grenade      	= weapons\gp25_grenload
+snd_switch              	= weapons\draw_silent
+snd_bore					= weapons\draw_silent
+snd_silncer_shot        	= weapons\ak_shoot_sil
 
 ;silencer_flame_particles  = weapons\generic_weapon01
 silencer_smoke_particles   = weapons\generic_shoot_00
-
-snd_silncer_shot        = weapons\ak74u_shoot_sil
-snd_silncer_shot1        = weapons\ak74u_shoot_sil1
 
 silencer_light_color    = 0.6,0.5,0.3
 silencer_light_range    = 0.01
@@ -203,51 +204,54 @@ silencer_light_var_range= 0.5
 silencer_light_time     = 0.2
 
 [wpn_ak74u_hud]
-zoom_hide_crosshair        	= true
-attach_place_idx        	= 0
-item_visual                	= dynamics\weapons\wpn_ak74u\wpn_ak74u_hud.ogf
+zoom_hide_crosshair        = true
+attach_place_idx        = 0
+item_visual                = dynamics\weapons\wpn_ak74u\wpn_ak74u_hud.ogf
 
-hands_position				= 0.05,-0.022,0.25
+hands_position				= -0.025,-0.14,0.13
 hands_orientation			= 2,2,0
 
-hands_position_16x9 		= 0.05,-0.022,0.25
+hands_position_16x9 		= -0.025,-0.14,0.13
 hands_orientation_16x9 		= 2,2,0
 
 item_position				= 0,0,0
 item_orientation			= 0,0,0
 
-shell_point                	= 0,0,0
+shell_point                 = 0,0,0
 shell_dir               	= 0.0, 1.0, 0.0
 shell_bone                	= gilza
 
 fire_point					= 0,0,0
 fire_bone                   = muzzle
-fire_point2                 = 0.0,-0.011,0.553
+fire_point2                 = 0,0,0
 fire_bone2                	= wpn_body
 
-anm_show				= aksu_draw
-anm_hide                = aksu_holster
-anm_idle                = aksu_idle
-anm_idle_sprint         = aksu_sprint
-anm_idle_moving         = aksu_move
-anm_shots               = aksu_shoot, shoot
-anm_reload              = aksu_reload, reload
-anm_idle_aim            = aksu_aim
-anm_bore                = aksu_bore
+anm_show					= aks74u_draw
+anm_hide                	= aks74u_holster
+anm_idle                	= aks74u_idle
+anm_idle_sprint         	= aks74u_idle_sprint
+anm_idle_moving         	= aks74u_idle_moving
+anm_idle_moving_crouch      = aks74u_idle_crouch
+anm_shots               	= aks74u_shoot, shoot
+anm_reload              	= aks74u_reload, reload
+anm_reload_empty            = aks74u_reload_empty, reload_empty
+anm_idle_aim            	= aks74u_idle_aim
+anm_bore                	= aks74u_idle_aim
 
+aim_hud_offset_pos			= -0.132,0.046,-0.15
+aim_hud_offset_rot			= 0.034,0.036,0.0
 
-aim_hud_offset_pos_16x9 = -0.1238,0.0125,-0.1
-aim_hud_offset_rot_16x9 = -0.0045,0.0356,0.0
-gl_hud_offset_pos_16x9 = 0.0,0.0,0.0
-gl_hud_offset_rot_16x9 = 0.0,0.0,0.0
+aim_hud_offset_pos_16x9		= -0.132,0.046,-0.15
+aim_hud_offset_rot_16x9		= 0.034,0.036,0.0
 
-aim_hud_offset_pos = -0.1238,0.0125,-0.1
-aim_hud_offset_rot = -0.0045,0.0356,0.0
-gl_hud_offset_pos = 0.0,0.0,0.0
-gl_hud_offset_rot = 0.0,0.0,0.0
+gl_hud_offset_pos           = 0,0,0
+gl_hud_offset_rot           = 0,0,0
 
-lean_hud_offset_pos        = 0,0,0
-lean_hud_offset_rot        = 0,0,0
+gl_hud_offset_pos_16x9      = 0,0,0
+gl_hud_offset_rot_16x9      = 0,0,0
+
+lean_hud_offset_pos         = 0,0,0
+lean_hud_offset_rot         = 0,0,0
 
 ;-----------------------------------------------------------------------------
 ; ”никальные
