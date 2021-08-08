@@ -4,13 +4,13 @@
 		<text>Ruger GP100</text>
 	</string>
 	<string id="st_wpn_gp100_descr">
-		<text>El GP100 es una familia / linea de revolveres de doble accion de cinco, seis, siete o diez disparos fabricados por Sturm, Ruger y Co., fabricados en los Estados Unidos.</text>
+		<text>El GP100 es una familia / linea de revolveres de doble accion de cinco, seis, siete o diez disparos fabricados por Sturm, Ruger and Co., fabricados en los Estados Unidos.</text>
 	</string>
 	<string id="st_wpn_mp7">
 		<text>MP7</text>
 	</string>
 	<string id="st_wpn_mp7_descr">
-		<text>El MP7 es un subfusil aleman fabricado por Heckler & Koch que utiliza un cartucho poco comun: el 4,6 x 30. El diseno se basa en los requisitos de la OTAN en 1989 para un arma lo bastante portatil como una pistola, a la vez que tenga la suficiente potencia para penetrar chalecos antibalas.</text>
+		<text>El MP7 es un subfusil aleman fabricado por Heckler and Koch que utiliza un cartucho poco comun: el 4,6 x 30. El diseno se basa en los requisitos de la OTAN en 1989 para un arma lo bastante portatil como una pistola, a la vez que tenga la suficiente potencia para penetrar chalecos antibalas.</text>
 	</string>
 	<string id="st_wpn_glock18">
 		<text>Glock-18</text>
@@ -23,5 +23,35 @@
 	</string>
 	<string id="st_wpn_mp5sd_descr">
 		<text>A pesar de su elemento silenciador integrado, tiene la misma longitud y forma que una metralleta sin silenciador. A diferencia de la mayoria de las ametralladoras silenciadas convencionales, dispara tipos de municion estandar con el mismo efecto. No es necesario el uso de municion subsonica especial. El elemento silenciador integrado suprime el destello de boca de manera extremadamente eficaz, por lo que el arma tambien es excelente para operaciones nocturnas con amplificadores de poca luz. No es de extranar que la MP5SD sea una de las ametralladoras silenciadas mas precisas de su tipo.</text>
+	</string>
+	<string id="st_wpn_gsh18">
+		<text>GSh-18</text>
+	</string>
+	<string id="st_wpn_gsh18_descr">
+		<text>La GSh-18 es una pistola semiautomatica de 9 mm desarrollada por la Oficina de Diseno de Instrumentos KBP en Tula durante la decada de 1990. El nombre de la pistola se deriva de sus disenadores, Gryazev y Shipunov, y su capacidad de cargador de 18 rondas.</text>
+	</string>
+	<string id="st_wpn_m16a2">
+		<text>Colt M16A2</text>
+	</string>
+	<string id="st_wpn_m16a2_descr">
+		<text>El M16 es la designacion de las Fuerzas Armadas de los Estados Unidos para una variacion del fusil AR-15. La compania Colt compro los derechos del AR-15 a ArmaLite y actualmente solo usa esa designacion para versiones semiautomaticas del fusil. El M16 dispara el cartucho 5,56 ? 45 OTAN.</text>
+	</string>
+	<string id="st_wpn_saiga">
+		<text>Saiga-12k</text>
+	</string>
+	<string id="st_wpn_saiga_descr">
+		<text>La Saiga-12 es una escopeta semiautomatica calibre 12, basada en el fusil de asalto Kalashnikov. Se encuentra disponible en una amplia gama de configuraciones. Al igual que las variantes del Kalashnikov, tiene un cerrojo rotativo, es accionada por los gases del disparo y es alimentada mediante un cargador.</text>
+	</string>
+	<string id="st_wpn_crowbar">
+		<text>Palanca</text>
+	</string>
+	<string id="st_wpn_crowbar_descr">
+		<text>Una palanca a la cual los anos le han pasado factura, sin embargo los stalkers le han encontrado un nuevo uso colocandole una sierra en la punta frontal de la palanca para un mayor dano punzante en combate.</text>
+	</string>
+	<string id="st_wpn_m37">
+		<text>Ithaca 37</text>
+	</string>
+	<string id="st_wpn_m37_descr">
+		<text>La Ithaca 37 es una escopeta de corredera fabricada para el mercado civil, policial y militar. Tambien conocida como la Featherlight, utiliza una novedosa combinacion de portilla de carga/eyeccion en la parte inferior del arma que deja los lados cerrados para los elementos extranos.</text>
 	</string>
 </string_table>
