@@ -1,0 +1,70 @@
+[mp_stalker_outfit]:stalker_outfit
+$spawn              = "network\outfits\mp_stalker_outfitt"
+class				= EQU_SCIE
+
+inv_name			= mp_stalker_outfit_name
+inv_name_short		= mp_stalker_outfit_name
+description			= mp_stalker_outfit_description
+
+burn_protection = 10			;коэффициенты защиты костюма персонажем
+strike_protection = 0 ;0.05
+shock_protection = 10
+wound_protection = 0.5
+radiation_protection = 1
+telepatic_protection = 0.99
+chemical_burn_protection = 4
+explosion_protection = 0.4
+hit_fraction_actor		= 0.35
+
+bones_koeff_protection = mp_stalker_outfit_bones
+immunities_sect			= mp_stalker_outfit_immunities
+
+[mp_stalker_outfit_bones]
+hit_fraction		= 0.21
+
+bip01_pelvis 		 = 1.88, 0.35 ;1.8, 0.3
+bip01_spine 		 = 1.88, 0.35 ;1.8, 0.3
+bip01_spine1 		 = 1.88, 0.35 ;1.8, 0.3
+bip01_spine2		 = 1.88, 0.35 ;1.8, 0.3
+bip01_neck 		 = 2.8, 0.30 ;2.0, 0.20
+bip01_head 		 = 2.8, 0.30 ;2.0, 0.20
+eyelid_1 		 = 2.8, 0.30 ;2.0, 0.20
+eye_left 		 = 2.8, 0.02 ;2.0, 0.01 
+eye_right 		 = 2.8, 0.02 ;2.0, 0.01
+jaw_1 		 	 = 2.8, 0.30 ;2.0, 0.20
+
+bip01_l_clavicle	 = 1.88, 0.35, 1.5 ;1.8, 0.3
+bip01_l_upperarm	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+bip01_l_forearm	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+bip01_l_hand	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+
+bip01_r_clavicle	 = 1.88, 0.35 ;1.8, 0.3
+bip01_r_upperarm	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+bip01_r_forearm	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+bip01_r_hand	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+bip01_l_finger0	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+bip01_l_finger1	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+bip01_l_finger2	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+
+bip01_l_thigh	 	 = 1.88, 0.35 ;1.8, 0.3
+bip01_l_calf	 	 = 1.88, 0.35 ;1.8, 0.3
+bip01_l_foot	 	 = 1.88, 0.35 ;1.8, 0.3
+
+bip01_r_thigh	 	 = 1.88, 0.35 ;1.8, 0.3
+bip01_r_calf	 	 = 1.88, 0.35 ;1.8, 0.3
+bip01_r_foot	 	 = 1.88, 0.35 ;1.8, 0.3
+bip01_r_finger0	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+bip01_r_finger1	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+bip01_r_finger2	 	 = 1.88, 0.35, 1.5 ;1.8, 0.3, 1
+
+
+[mp_stalker_outfit_immunities]
+burn_immunity				= 0.05				;коэффициенты иммунитета самого костюма
+strike_immunity				= 0.5 ;0.00
+shock_immunity				= 0.00
+wound_immunity				= 1.00
+radiation_immunity			= 0.00
+telepatic_immunity			= 0.00
+chemical_burn_immunity		= 0.05
+explosion_immunity			= 0.5 ;0.00
+fire_wound_immunity			= 0.08
