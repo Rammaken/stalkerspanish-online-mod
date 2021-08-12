@@ -1,2 +1,5 @@
 - r_populik
 - Dynamic
+- AyyKyu
+- Isthar
+- Solarint
