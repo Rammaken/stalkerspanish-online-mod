@@ -81,8 +81,8 @@ fragment_speed				= 200
 explode_duration			= 3		;подолжительность взрыва (с)
 
 ;звуки
-snd_explode = weapons\grenade_explosion
-snd_checkout = weapons\grenade_pinpull
+snd_explode = weapons\t_rgd5_explosion        ; t_f1_explosion ; f1_explode
+snd_checkout = weapons\generic_checkout, 1.0, 0.4
 
 attach_position_offset	= -0.053,-0.089,0.0
 attach_angle_offset		= 0,0,0
@@ -110,25 +110,37 @@ fire_bone               = wpn_body
 attach_place_idx	= 0
 item_visual		= dynamics\weapons\wpn_grenades\wpn_rgd5_hud.ogf
 
-hands_position				= -0.025,-0.15,0.05
-hands_orientation			= 0,0,0
+hands_position          	= -0.044000,-0.156000,0.100000
+hands_orientation       	= -0.500000,1.000000,-2.000000
+hands_position_16x9     	= -0.044000,-0.156000,0.100000
+hands_orientation_16x9  	= -0.500000,1.000000,-2.000000
 
-hands_position_16x9			= -0.025,-0.15,0.05
-hands_orientation_16x9		= 0,0,0
+item_position				= 0.004407,0.000254,-0.002439
+item_orientation			= -359.925262,-2.224621,-7.030276
 
-item_position				= 0,0,0
-item_orientation			= 0,0,0
+;item_position				= -0.001215,0.005992,0.000966
+;item_orientation			= -359.925262,-2.224621,-7.030276
 
-anm_hide				= grenade_holster, holster
-anm_show				= grenade_draw, draw
-anm_idle				= grenade_idle, idle_idle
-anm_bore				= grenade_idle_bore, idle_bore
-anm_idle_moving	 		= grenade_idle_moving, idle_moving
-anm_idle_sprint	 		= grenade_idle_sprint, idle_sprint
 
-anm_throw_begin			= grenade_throw_begin, throw_begin
-anm_throw_idle			= grenade_throw_idle, throw_idle
-anm_throw				= grenade_throw, throw
+aim_hud_offset_pos			= 0,0,0
+aim_hud_offset_rot			= 0,0,0
+gl_hud_offset_pos			= 0,0,0
+gl_hud_offset_rot			= 0,0,0
+
+lean_hud_offset_pos			= 0,0,0
+lean_hud_offset_rot			= 0,0,0
+
+anm_show				= lancew_f1_draw
+anm_hide				= lancew_f1_holster
+anm_idle				= lancew_f1_idle, idle
+anm_bore				= lancew_f1_no_reload
+anm_idle_moving			= lancew_f1_moving, moving
+anm_idle_sprint			= lancew_f1_sprint, sprint
+
+anm_throw_begin			= lancew_f1_throw_begin, throw_begin
+anm_throw_idle			= lancew_f1_throw_idle, throw_idle
+anm_throw				= lancew_f1_throw, throw
+
 
 throw_point			= 0.0,0.4,0.3
 throw_dir			= 0,0,1
