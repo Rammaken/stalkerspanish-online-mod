@@ -747,4 +747,7 @@
     <string id="mp_military1">
 		<text>Almacenes militares</text>
 	</string>
+    <string id="mp_oil_rig">
+		<text>Plataforma petrolifera</text>
+	</string>
 </string_table>
