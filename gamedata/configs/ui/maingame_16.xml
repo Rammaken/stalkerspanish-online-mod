@@ -189,19 +189,19 @@
 		<indik_psi x="880" y="730" width="22" height="28" stretch="1"/>
 		<indik_acid x="880" y="730" width="22" height="28" stretch="1"/>
 
-		<back x="905" y="673" width="110" height="85" stretch="1">
-			<texture>ui_hud_new</texture>
+		<back x="841" y="635" width="178" height="121" stretch="1">
+			<texture>ui_inGame2_Patroni_HUD_main_window</texture>
 		</back>
 
-		<progress_bar_health x="911" y="692" width="96" height="23" horz="1" min="0" max="100" pos="0">
-		<progress><!-- light_anim="ui_blinking_1" la_cyclic="0" la_texture="1" la_text="0" la_alpha="1" stretch="1"-->
-			<texture>ui_stamina1</texture>
+		<progress_bar_health x="885" y="648" width="113" height="16" horz="1" min="0" max="100" pos="0">
+			<progress><!-- light_anim="ui_blinking_1" la_cyclic="0" la_texture="1" la_text="0" la_alpha="1" stretch="1"-->
+				<texture>ui_inGame2_Patroni_HUD_red_bar</texture>
 			</progress>
 		</progress_bar_health>
 
-	    <progress_bar_stamina x="911" y="717" width="96" height="23" horz="1" min="0" max="100" pos="0">
+	    <progress_bar_stamina x="885" y="670" width="113" height="10" horz="1" min="0" max="100" pos="0">
 	        <progress><!-- light_anim="ui_blinking_1" la_cyclic="0" la_texture="1" la_text="0" la_alpha="1" stretch="1"-->
-		        <texture>ui_stamina2</texture>
+		        <texture>ui_inGame2_Patroni_HUD_blue_bar</texture>
 	        </progress>
 	    </progress_bar_stamina>
 

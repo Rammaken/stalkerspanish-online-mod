@@ -121,7 +121,5 @@
             <texture id="ui_hud_new"                        x="903" y="17" width="94" height="68" />
             <texture id="ui_hud_new_2"                      x="900" y="200" width="100" height="100" />
             <texture id="ui_clock1"                         x="803" y="17" width="94" height="68" />
-            <texture id="ui_stamina1"                       x="872" y="109" width="105" height="31" />
-            <texture id="ui_stamina2"                       x="872" y="161" width="105" height="31" />
 	</file>
 </w>
