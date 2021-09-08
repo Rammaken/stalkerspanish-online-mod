@@ -178,21 +178,16 @@ silencer_x 					= 178							; offset in inventory icon
 silencer_y 					= -2
 
 ;звуки
-snd_draw                	= weapons\rifle_draw
-snd_holster             	= weapons\rifle_holster
-snd_shoot               	= weapons\ak74u\aks74u_shoot
-snd_shoot1               	= weapons\ak74u\aks74u_shoot1
-snd_shoot2               	= weapons\ak74u\aks74u_shoot2
-snd_shoot3               	= weapons\ak74u\aks74u_shoot3
-snd_shoot4               	= weapons\ak74u\aks74u_shoot4
-snd_empty               	= weapons\ak_empty
-snd_reload              	= weapons\ak74u\aks74u_reload
-snd_reload_empty            = weapons\ak74u\aks74u_reload
-snd_shoot_grenade       	= weapons\gp25_grenshoot
-snd_reload_grenade      	= weapons\gp25_grenload
-snd_switch              	= weapons\draw_silent
-snd_bore					= weapons\draw_silent
-snd_silncer_shot        	= weapons\ak_shoot_sil
+snd_draw                = weapons\ak74u\ak74u_draw
+snd_holster             = weapons\ak74u\ak74u_holster
+snd_shoot               = weapons\ak74u\ak74u_shoot
+snd_empty               = weapons\ak74u\ak74u_empty, 0.5
+snd_reload              = weapons\ak74u\ak74u_reload, 0.7
+snd_silncer_shot        = weapons\ak74\ak74_shoot_sil
+snd_bore		        = weapons\shared\draw_silent, 0.7
+snd_shoot_grenade       = weapons\shared\draw_silent
+snd_reload_grenade      = weapons\shared\draw_silent, 1.0, 0.8
+snd_switch              = weapons\shared\draw_silent, 1.0, 0.5
 
 ;silencer_flame_particles  = weapons\generic_weapon01
 silencer_smoke_particles   = weapons\generic_shoot_00

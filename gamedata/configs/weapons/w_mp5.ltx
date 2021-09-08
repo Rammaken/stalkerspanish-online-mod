@@ -187,22 +187,17 @@ grenade_launcher_x      = 126                ; offset in inventory icon
 grenade_launcher_y      = 24
 
 ;звуки
-snd_draw                = weapons\rifle_draw
-snd_holster             = weapons\rifle_holster
 snd_shoot               = weapons\mp5\mp5_shoot
-snd_shoot1              = weapons\mp5\mp5_shoot1
-snd_shoot2              = weapons\mp5\mp5_shoot2
-snd_shoot3              = weapons\mp5\mp5_shoot3
-snd_shoot4              = weapons\mp5\mp5_shoot4
 snd_silncer_shot        = weapons\mp5\mp5_shoot_sil
-snd_empty               = weapons\gen_empty, 0.5
 snd_reload              = weapons\mp5\mp5_reload
-snd_reload_empty        = weapons\mp5\mp5_reload_empty
-snd_shoot_grenade       = weapons\gen_grenshoot
-snd_reload_grenade      = weapons\gen_grenload, 1.0, 0.8
-snd_switch              = weapons\groza_switch, 1.0, 0.5
-snd_bore				= weapons\draw_silent
-snd_bore1				= weapons\draw_silent
+snd_empty               = weapons\ak74\ak74_empty, 0.5
+snd_draw                = weapons\shared\rifle_draw
+snd_holster             = weapons\shared\rifle_holster
+snd_shoot_grenade       = weapons\shared\draw_silent
+snd_reload_grenade      = weapons\shared\draw_silent, 1.0, 0.8
+snd_switch              = weapons\shared\draw_silent, 1.0, 0.5
+snd_bore				= weapons\shared\draw_silent
+snd_bore1				= weapons\shared\draw_silent
 
 ;silencer_flame_particles  = weapons\generic_weapon01
 silencer_smoke_particles   = weapons\generic_shoot_00
@@ -212,7 +207,6 @@ silencer_light_range    = 0.01
 silencer_light_var_color= 0.05
 silencer_light_var_range= 0.5
 silencer_light_time     = 0.2
-
 
 [wpn_mp5_hud]
 zoom_hide_crosshair     = true

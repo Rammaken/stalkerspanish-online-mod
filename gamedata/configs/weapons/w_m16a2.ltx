@@ -190,24 +190,23 @@ grenade_launcher_y         = 28
 scopes_sect				   = scope_susat_m16a2, scope_susat_x1.6_m16a2, scope_susat_custom_m16a2, scope_susat_dusk_m16a2, scope_susat_night_m16a2
 
 ;звукЃE
-snd_draw                = weapons\generic_draw
-snd_holster             = weapons\generic_holster
-snd_shoot               = weapons\m16a2\m16a2_shoot
-snd_shoot               = weapons\m16a2\m16a2_shoot
 
-snd_empty               = weapons\gen_empty, 0.5
+snd_shoot               = weapons\m16a2\m16a2_shoot
+snd_silncer_shot        = weapons\m16a2\m16a2_shoot_sil
 snd_reload              = weapons\m16a2\m16a2_reload, 0.7
-snd_shoot_grenade       = weapons\gen_grenshoot
-snd_reload_grenade      = weapons\gen_grenload, 1.0, 0.8
-snd_switch              = weapons\groza_switch, 1.0, 0.5
-snd_bore				= weapons\draw_silent
-snd_bore1				= weapons\mp5_bore
+snd_draw                = weapons\shared\rifle_draw
+snd_holster             = weapons\shared\rifle_holster
+snd_empty               = weapons\shared\draw_silent, 0.5
+snd_shoot_grenade       = weapons\shared\draw_silent
+snd_reload_grenade      = weapons\shared\draw_silent, 1.0, 0.8
+snd_switch              = weapons\shared\draw_silent, 1.0, 0.5
+snd_bore				= weapons\shared\draw_silent
+snd_bore1				= weapons\shared\draw_silent
+
 
 ;ъьстройкЃEдля глушителя
 ;silencer_flame_particles  = weapons\generic_weapon01
 silencer_smoke_particles   = weapons\generic_shoot_00
-
-snd_silncer_shot        = weapons\m16a2\m16a2_shoot_sil
 
 silencer_light_color    = 0.6,0.5,0.3
 silencer_light_range    = 0.01

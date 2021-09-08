@@ -158,15 +158,15 @@ silencer_x                  					= 230
 silencer_y                  					= 12
 
 ;звуки
-snd_draw				= weapons\generic_draw
-snd_holster				= weapons\generic_holster
+snd_draw				= weapons\shared\rifle_draw
+snd_holster				= weapons\shared\generic_holster
+snd_empty               = weapons\ak74\ak74_empty, 0.5
 snd_shoot               = weapons\saiga\saiga_fire
 snd_silncer_shot        = weapons\saiga\saiga_suppressed
-snd_empty               = weapons\gen_empty, 0.5
 snd_reload              = weapons\saiga\saiga_reload
-snd_shoot_grenade       = weapons\gen_grenshoot
-snd_reload_grenade      = weapons\gen_grenload, 1.0, 0.8
-snd_switch              = weapons\groza_switch, 1.0, 0.5
+snd_shoot_grenade       = weapons\shared\draw_silent
+snd_reload_grenade      = weapons\shared\draw_silent, 1.0, 0.8
+snd_switch              = weapons\shared\draw_silent, 1.0, 0.5
 
 silencer_smoke_particles 				= amik\weapons\smoke_particles\silencer_smoke_particles_00
 

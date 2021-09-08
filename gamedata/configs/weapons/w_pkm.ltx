@@ -170,20 +170,15 @@ zoom_rotate_time        = 0.5
 scope_zoom_factor       = 50   
 
 ;звуки
-snd_draw                = weapons\ak74_draw
-snd_holster             = weapons\generic_holster
-snd_shoot                                        = weapons\pkm\pkm_shoot
-;snd_shoot1                                        = weapons\pkm_shot
-;snd_shoot2                                        = weapons\pkm_shot
-;snd_shoot3                                        = weapons\pkm_shot
-snd_silncer_shot        = weapons\w_ak74_shot1
-
-snd_empty               = weapons\gen_empty, 0.5
+snd_draw                = weapons\pkm\pkm_draw
+snd_shoot               = weapons\pkm\pkm_shoot
 snd_reload              = weapons\pkm\pkm_reload, 0.7
-snd_shoot_grenade       = weapons\gen_grenshoot
-snd_reload_grenade      = weapons\gen_grenload, 1.0, 0.8
-snd_switch              = weapons\groza_switch, 1.0, 0.5
-
+snd_empty               = weapons\ak74\ak74_empty, 0.5
+snd_holster             = weapons\shared\generic_holster
+snd_shoot_grenade       = weapons\shared\draw_silent
+snd_reload_grenade      = weapons\shared\draw_silent, 1.0, 0.8
+snd_switch              = weapons\shared\draw_silent, 1.0, 0.5
+snd_silncer_shot        = weapons\shared\draw_silent
 
 ;настройки для глушителя
 silencer_hit_power      = 0.55, 0.55, 0.55, 0.55
