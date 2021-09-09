@@ -1,0 +1,237 @@
+[wpn_mosin]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection		= spawn_group
+discovery_dependency 	=
+$spawn                  = "weapons\mosin"		; option for Level Editor
+$npc			 		= on				; option for Level Editor
+$prefetch 		 		= 8
+scheduled               = off              	; option for ALife Simulator
+cform                   = skeleton
+class                   = WP_SVD
+min_radius              = 0
+max_radius              = 50
+description				= st_wpn_mosin_descr
+
+ef_main_weapon_type		= 3
+ef_weapon_type			= 8
+
+default_to_ruck         = false
+sprint_allowed       	= true
+;control_inertion_factor = 1.0
+
+;---DOF-------------------------------------------------------------------------
+zoom_dof				= 0.5, 1.0, 350
+reload_dof				= 0.0, 0.5, 5, 1.7
+;-------------------------------------------------------------------------------
+
+upgrades                = up_gr_firstab_svd, up_gr_seconab_svd, up_gr_thirdab_svd, up_gr_fourtab_svd, up_gr_fourtcd_svd, up_gr_fourtef_svd
+installed_upgrades      =
+upgrade_scheme          = upgrade_scheme_svd
+
+;--- scope weapons -----------------------------------------------------------------
+holder_range_modifier	= 2.15               ; во скьJБEБEраБEувеличиваетс€ eye_range
+holder_fov_modifier		= 0.3              ; во скьJБEБEраБEувеличиваетс€ eye_fov
+;-------------------------------------------------------------------------------
+
+cost					= 15000
+weapon_class			= sniper_rifle
+
+ammo_limit				= 60
+ammo_current			= 5
+ammo_elapsed			= 0
+
+ammo_mag_size			= 5
+ammo_class				= ammo_7.62x54_7h1, ammo_7.62x54_7h14
+hand_dependence         = 1
+single_handed           = 0
+
+slot                    = 2                ; // secondary
+animation_slot          = 2                ; type of the animation that will be used
+
+inv_name				= st_wpn_mosin
+inv_name_short			= st_wpn_mosin
+inv_weight				= 4.0
+
+inv_grid_width			= 6
+inv_grid_height			= 1
+inv_grid_x				= 9
+inv_grid_y				= 30
+
+kill_msg_x				= 0
+kill_msg_y				= 0
+kill_msg_width			= 98
+kill_msg_height			= 23
+
+;-------------------------------------------------------------------------------
+;базова€ дисперси€
+fire_dispersion_base	= 0.15 ;0.03	;угьJ (БEградусах) базовоБEдисперсиБEъAужБE (ъAужБE зажатого БEтисках)
+control_inertion_factor	= 2.2f
+
+;ъCдача
+cam_relax_speed         = 4.5	;скъAъBть возврата БEисходньD БEБEжеыGБE
+cam_relax_speed_ai      = 360	;скъAъBть возврата БEисходньD БEБEжеыGБE
+cam_dispersion          = 2.5	;увеличенБE угБE (БEградусах) БEБEждым выстреБEБE
+cam_dispersion_inc		= 2.5	;увеличениe cam_dispersion БEБEждым выстреБEБE
+cam_dispersion_frac		= 1.0	;ствоБEбудеБEБEдыБEтьБE ъь cam_dispersion*cam_dispersion_frac +- cam_dispersion*(1-cam_dispersion_frac)
+cam_max_angle			= 15.0	;БEБEималБEый угьJ ъCдачи
+cam_max_angle_horz		= 3.0	;(degree) maximum shot horizontal degree
+cam_step_angle_horz		= 0.25	;(degree) size of step camera moved in horizontal position while shooting
+
+zoom_cam_relax_speed        = 4.5    ; scope & ironsight
+zoom_cam_relax_speed_ai     = 120.75
+zoom_cam_dispersion         = 1.8
+zoom_cam_dispersion_inc     = 1.8
+zoom_cam_dispersion_frac    = 1.0
+zoom_cam_max_angle          = 10.0
+zoom_cam_max_angle_horz     = 5.0
+zoom_cam_step_angle_horz    = 0.25
+
+fire_dispersion_condition_factor = 5	;увеличение дисперсиБEБEБEъGентаБEБEБEБEБEималБEьK изыMсе
+misfire_start_condition		= 0.6
+misfire_end_condition		= 0.1
+misfire_start_prob	     	= 0.0075
+misfire_end_prob	     	= 0.075
+misfire_probability 		= 0.005 ;веро€тнъBть ъBечБE БEБEБEБEималБEьK изыMсе
+misfire_condition_k		= 0.05
+condition_shot_dec 		= 0.0002 ;увеличение изыMса БEБEБEждьK выстреБE
+;-------------------------------------------------------------------------------
+
+position                = -0.026, -0.077, 0.00
+orientation             = 0, 0, 0
+
+fire_point           	= 0.0, 0.129, 0.942
+fire_point2             = 0.0, 0.129, 0.942
+
+flame_particles			= weapons\generic_weapon06
+smoke_particles			= weapons\generic_shoot_00
+rpm_empty_click 			= 200
+
+shell_point		 			= 0.0, 0.129, 0.192
+shell_dir		 			= 0.0, 0.0, 0.4
+;shell_particles	 		= weapons\generic_shells
+
+PDM_disp_base 			= 1.0
+PDM_disp_vel_factor 	= 2.0
+PDM_disp_accel_factor 	= 1.0
+PDM_disp_crouch	 		= 1.0
+PDM_disp_crouch_no_acc 	= 1.0
+
+; ttc
+hit_power           		= 1.0, 1.0, 1.0, 1.0
+hit_impulse		 			= 125
+hit_type 					= fire_wound
+
+hit_probability_gd_novice	= 1
+hit_probability_gd_stalker	= 1
+hit_probability_gd_veteran	= 1
+hit_probability_gd_master	= 1
+
+fire_distance           = 1000
+bullet_speed		 	= 850	;ъьчаБEъь€ скъAъBть БEБE
+rpm                     = 28
+rpm_empty_click         = 200
+; end ttc
+
+use_aim_bullet				= true		;ѕьCдерживаетс€ БE БEрвБE суБEер БEБE
+time_to_aim					= 1.0
+
+hud                     = wpn_mosin_hud
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+;БEБEБEшкьH
+strap_position         	= -0.15,-0.15,0.45			; position (offset) and orientation of the weapon when it is strapped
+strap_orientation      	= -25,-189,65				; (3rd person view in degrees)
+strap_bone0					= bip01_spine2
+strap_bone1					= bip01_spine1
+
+startup_ammo            = 10
+visual                  = dynamics\weapons\wpn_m1891\wpn_m1891.ogf
+
+light_disabled				= false
+light_color		 			= 0.6,0.5,0.3
+light_range		 			= 4.0
+light_var_color		 	= 0.05
+light_var_range		 	= 0.5
+light_time 		 			= 0.2
+
+ph_mass			 			= 3
+
+;addons
+scope_status				= 0;1; 2 ;1
+silencer_status				= 0
+grenade_launcher_status		= 0
+
+zoom_enabled				= true
+zoom_rotate_time			= 0.25
+scope_zoom_factor			= 50;10; 67.5; 10 ;15		;ѕ—ќ-1 4X
+
+scope_texture				= wpn_crosshair
+scope_name 					= wpn_addon_scope
+scope_x 						= 60
+scope_y 						= -2
+
+;звукБE
+snd_reload					= weapons\mosin\mosin_reload
+snd_shoot					= weapons\mosin\mosin_shoot
+snd_empty					= weapons\ak74\ak74_empty, 0.5
+snd_draw					= weapons\shared\rifle_draw
+snd_holster					= weapons\shared\sniper_holster
+snd_close					= weapons\shared\generic_close
+
+[wpn_mosin_hud]:hud_base
+zoom_hide_crosshair		= true
+attach_place_idx			= 0
+item_visual					= dynamics\weapons\wpn_m1891\wpn_m1891_hud.ogf
+
+
+;hands_position				= -0.03000,-0.150999,0.125;-0.063500,-0.150999,0.099000
+;hands_orientation			= -0.0,0.000000,0.000000;-0.049999,0.750000,1.550001
+hands_position				= -0.063500,-0.15099,0.125
+hands_orientation			= 0.0,0.0,0.0
+
+hands_position_16x9			= -0.063500,-0.15099,0.125
+hands_orientation_16x9			= 0.0,0.0,0.0
+
+;hands_position_16x9				= -0.045500,-0.161499,-0.026500
+;hands_orientation_16x9			= 3.299998,4.249998,0.800001
+
+item_position				= 0.0,0,0
+item_orientation			= 0,0,0
+
+shell_point					= 0.025,0.055,0.221
+shell_dir               = 0.0, 1.0, 0.0
+shell_bone					= wpn_body
+
+fire_point		= 0,0.07204,1.02;0,0.043,1.002
+fire_bone               = wpn_body
+
+;aim_hud_offset_pos				= -0.12418,0.051,-0.105000;-0.052500,0.016499,-0.123000
+;aim_hud_offset_rot				= 0.000000,0.000000,0.000000
+
+aim_hud_offset_pos				= -0.09068,0.0508,-0.105000
+aim_hud_offset_rot				= 0.0,0.0,0.0
+
+aim_hud_offset_pos_16x9				= -0.09068,0.0508,-0.105000
+aim_hud_offset_rot_16x9				= 0.0,0.0,0.0
+
+gl_hud_offset_pos			= 0,0,0
+gl_hud_offset_rot			= 0,0,0
+
+lean_hud_offset_pos		= 0,0,0
+lean_hud_offset_rot		= 0,0,0
+
+anm_show						= m1891_draw
+anm_hide             	= m1891_holster
+anm_shots					= m1891_shoot1;svd_shoot
+anm_reload					= m1891_reload
+anm_bore						= m1891_idle_2
+anm_idle             	= m1891_idle
+anm_idle_aim				= m1891_idle_aim
+anm_idle_moving 			= m1891_idle_moving
+anm_idle_sprint			= m1891_idle_sprint
+
+;-----------------------------------------------------------------------------
+; ”ыGБEБEыZБE
+;-----------------------------------------------------------------------------
+
+
+
