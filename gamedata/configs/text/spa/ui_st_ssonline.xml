@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="mp_oil_rig">
+		<text>Plataforma petrolifera</text>
+	</string>
+    <string id="mp_school">
+		<text>Escuela</text>
+	</string>
+</string_table>
