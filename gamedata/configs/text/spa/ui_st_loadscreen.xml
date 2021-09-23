@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="ls_header">
+		<text>MANUAL PARA LA SUPERVIVENCIA EN EL CAMPO DE BATALLA</text>
+	</string>
+	<string id="ls_tip_number">
+		<text>Entrada n.є</text>
+	</string>
+	<string id="ls_mp_tip_9">
+		<text>"Las linternas te ayudan en los lugares oscuros, pero llevar una encima arruina cualquier intento de sigilo que hagas y tambien el de los otros jugadores que la porten, la bombilla siempre estara brillando opacamente en la oscuridad cuando este apagada. Interpretalo como una ventaja o desventaja."</text>
+	</string>
+	<string id="ls_mp_tip_1">
+		<text>"Hacer todas las bajas posibles es importante, solo de este modo podras conseguir ascender de rango y desbloquear nuevo equipamiento que te sera crucial en la batalla, y recuerda... si alguien te pasa en cuanto a rango estaras en mucha desventaja al nivel de armamento."</text>
+	</string>
+	<string id="ls_mp_tip_11">
+		<text>"Las granadas son tu mejor compaсero en la batalla, una buena explosion puede dejar fuera de combate a alguien en un cuarto cerrado."</text>
+	</string>
+	<string id="ls_mp_tip_13">
+		<text>"Los objetos en amarillo representan el equipamiento que no te alcanza por falta de dinero, mientras que los que estan en rojo representan que aun careces de rango para comprarlos."</text>
+	</string>
+	<string id="ls_mp_tip_14">
+		<text>"Crea tus propios kits de equipameinto con las ranuras del lado derecho del menъ de compra, calcula tus precios y organiza diferentes combinaciones de armamento para cualquier situaciуn durante la partida."</text>
+	</string>
+	<string id="ls_mp_tip_15">
+		<text>"Por mas clichй que suene, cambiar a tu arma secundaria es mas rapido que recargar en frente del enemigo, por ende siempre debes cargar contigo un cuchillo o una pistola"</text>
+	</string>
+	<string id="ls_mp_tip_17">
+		<text>"Puedes activar un artefacto para crear una anomalнa. Para ello, saca el artefacto pulsando "$$ACTION_ARTEFACT$$" y mantйn "$$ACTION_WPN_FIRE$$". La anomalнa que aparezca serб tan peligrosa para tus enemigos como para ti."</text>
+	</string>
+	<string id="ls_mp_tip_18">
+		<text>"No te lances sin pensarlo, en el campo de batalla aparte de haber jugadores hay anomalias en tu entorno, ten cuidado porque morir a causa de una te hara restar un punto a tu puntuaciуn actual."</text>
+	</string>
+	<string id="ls_mp_tip_2">
+		<text>CAZA DE ARTEFACTOS: para ganar, debes llevar un determinado nъmero de artefactos a tu base.</text>
+	</string>
+	<string id="ls_mp_tip_20">
+		<text>"Recuerda comprar accesorios para tus armas asi tendras un mejor rendimiento con ellas, ya sea un silenciador para ir sigiloso o un lanzagranadas para lugares apretados."</text>
+	</string>
+	<string id="ls_mp_tip_22">
+		<text>"ЎEL FACTOR SIGILO ES IMPORTANTE! Los jugadores suelen distraerse durante los combates con mas de tres personas, si eres bueno desplazandote agachado o en escabullirte sin que se den cuenta, puedes tener muchas oportunidades de apuсalar a alguien por la espalda y ganar mas puntos y dinero que con una baja normal"</text>
+	</string>
+	<string id="ls_mp_tip_23">
+		<text>"Las escopetas son brutales y efectivas, en un lugar cerrado te vendran como anillo al dedo si sabes usarlas."</text>
+	</string>
+	<string id="ls_mp_tip_24">
+		<text>"Nunca te quedes quieto, si necesitas cobertura hazlo detras de un objeto resistente como cajas grandes o muros de concreto, los otros objetos son proprensos a ser atravesador por las balas".</text>
+	</string>
+	<string id="ls_mp_tip_26">
+		<text>"Dispara a la cabeza siempre que puedas, es una baja asegurada en el 100% de los casos."</text>
+	</string>
+	<string id="ls_mp_tip_27">
+		<text>"No te agites demasiado durante un combate o podrias quedar inmovilizado sin ni una gota de enegia y entonces serias una diana estatica ante tu enemigo."</text>
+	</string>
+	<string id="ls_mp_tip_28">
+		<text>"Dale un buen uso a tus granadas y apunta bien al tirarlas, asegurate que no sean un desperdicio."</text>
+	</string>
+	<string id="ls_mp_tip_29">
+		<text>"No te lances de lugares altos, podras atajar unas 5 balas con el pecho pero no el golpe contra el concreto al tirarte de una torre. Si cometes estos errores se te resta un punto de tu puntaje actual."</text>
+	</string>
+	<string id="ls_mp_tip_3">
+		<text>COMBATE A MUERTE: consigue mбs puntos letales que nadie para ganar.</text>
+	</string>
+	<string id="ls_mp_tip_30">
+		<text>"Si estas en una situaciуn complicada en las alturas, saltar grandes distancias de un edificio o plataforma hacia otra te puede otorgar ventaja para escapar pero ten cuidado, si caes, tu muerte podria ser inevitable y perderas un punto en tu puntuaciуn actual."</text>
+	</string>
+	<string id="ls_mp_tip_31">
+		<text>"Siempre mantente al tanto de tu barra de salud, si necesitas remendarte en cualquier momento puedes comprar botiquines en el menъ de compra antes de reaparecer."</text>
+	</string>
+	<string id="ls_mp_tip_35">
+		<text>"El minimapa indica la direcciуn del artefacto. Si la flecha seсala arriba, el artefacto estб por encima de tu posiciуn actual. Si seсala abajo, estб por debajo."</text>
+	</string>
+	<string id="ls_mp_tip_36">
+		<text>"Todos los jugadores que mueran soltaran una mochila, estas puedes recogerlas para ganar un bonus de dinero. Esto se le conoce como 'Confirmar bajas'."</text>
+	</string>
+	<string id="ls_mp_tip_37">
+		<text>"Cubre a toda costa al miembro de tu equipo que cargue con los artefactos."</text>
+	</string>
+	<string id="ls_mp_tip_38">
+		<text>"No seas cabeza dura o necio y hagas un movimiento kamikaze con cualquier arma explosiva, si te matas a ti mismo con ellas perderas puntos."</text>
+	</string>
+	<string id="ls_mp_tip_39">
+		<text>"Puedes comunicarte con tu equipo mediante mensajes de voz. Para acceder al menъ de esa opciуn, pulsa "$$ACTION_SPEECH_MENU_0$$" o "$$ACTION_SPEECH_MENU_1$$"."</text>
+	</string>
+	<string id="ls_mp_tip_4">
+		<text>COMBATE A MUERTE EN EQUIPO: para ganar, tu equipo deberб conseguir mбs puntos letales que el enemigo.</text>
+	</string>
+	<string id="ls_mp_tip_40">
+		<text>"Si quieres cambiar algun ajuste de la partida puedes iniciar una votaciуn publica con la tecla "$$ACTION_VOTE_BEGIN$$"."</text>
+	</string>
+	<string id="ls_mp_tip_41">
+		<text>"Si quieres ver la lista de jugadores o puntuaciуn durante la partida, pulsa la tecla "$$ACTION_SCORES$$"."</text>
+	</string>
+	<string id="ls_mp_tip_42">
+		<text>"Si has sido asesinado, puedes reaparecer de vuelta presionando la tecla "$$ACTION_JUMP$$"."</text>
+	</string>
+	<string id="ls_mp_tip_43">
+		<text>"Mientras estes en el modo espectador puedes acceder al menъ de compra con la tecla "$$ACTION_BUY_MENU$$"."</text>
+	</string>
+	<string id="ls_mp_tip_44">
+		<text>"Recuerda que la comunicaciуn es importante, puedes hablar por el chat general con la tecla "$$ACTION_CHAT$$" y para comunicarte ъnicamente con tu equipo, pulsa la tecla "$$ACTION_CHAT_TEAM$$"."</text>
+	</string>
+	<string id="ls_mp_tip_45">
+		<text>"Usa tu cabeza y habilidades para esquivar balas cuando te esten lloviendo de alguna direcciуn, corre, agachate, muevete en varias direcciones y rezale a tu dios."</text>
+	</string>
+	<string id="ls_mp_tip_46">
+		<text>"Si estas teniendo una mala conexiуn, no dejes apretado el boton de disparar o no podras controlar la insana rafaga que hara tu personaje."</text>
+	</string>
+	<string id="ls_mp_tip_47">
+		<text>"Cuando estes en desventaja, tira tus armas en frente del enemigo y saca tu cuchillo, en el mejor de los casos tu contricante tendra orgullo y te retara a un duelo a muerte con cuchillos... Espera, їЎDuelo a muerte con cuchillos!? Ehh, como sea... Derrotalo como un campeon o escapa como un cobarde."</text>
+	</string>
+	<string id="ls_mp_tip_48">
+		<text>"No te muevas por el lugar con un arma pesada en brazos o tu movimiento de camara se vera reducido en gran medida."</text>
+	</string>
+	<string id="ls_mp_tip_49">
+		<text>"Recuerda que existe la posibilidad de que tu y tu enemigo esten recargando en frente del uno al otro al mismo tiempo, esas situaciones sin duda son las mas emocionantes... їQue?, їQue donde esta el consejo? Ah si, presiona ALT + F4 para recargar mas rapido."</text>
+	</string>
+	<string id="ls_mp_tip_5">
+		<text>CAPTURA DEL ARTEFACTO: para ganar, debes llevar un determinado nъmero de artefactos enemigos a la base.</text>
+	</string>
+	<string id="ls_mp_tip_50">
+		<text>"Tambien puedes utilizar las armas de los cuerpos que estan en tu entorno, puedes tirar tu arma con la tecla "$$ACTION_DROP$$" y luego agarrar una."</text>
+	</string>
+	<string id="ls_mp_tip_51">
+		<text>"Si se te da muy mal disparar con cualquier arma puedes comprar un RPG-7 y asi casi seguro a alguien vas a hacer pedazos... solo no olvides que en el peor de los casos ese puedes ser tu."</text>
+	</string>
+	<string id="ls_mp_tip_52">
+		<text>Esta guнa fue escrita por Petro Gangster y distribuida por la editorial "Culto de veneraciуn hacia Sergiy Grigorovich". Derechos reservados, 2021.</text>
+	</string>
+	<string id="ls_mp_tip_53">
+		<text>"Apunta bien... Hombre, no es tan complicado."</text>
+	</string>
+	<string id="ls_mp_tip_55">
+		<text>"Recuerda que puedes asomarte por las esquinas, esto puede evitar que te avisten al salir de una cobertura. Sin embargo, no podras disparar mientras te ladeas."</text>
+	</string>
+	<string id="ls_mp_tip_6">
+		<text>CAPTURA DEL ARTEFACTO: para devolver un artefacto robado a tu base, tienes que matar al enemigo que lo lleve y recogerlo pulsando "$$ACTION_USE$$".</text>
+	</string>
+	<string id="ls_mp_tip_7">
+		<text>CAZA DE ARTEFACTOS: puedes destruir el artefacto activбndolo. Para ello, sбcalo pulsando "$$ACTION_ARTEFACT$$" y mantйn "$$ACTION_WPN_FIRE$$".</text>
+	</string>
+	<string id="ls_mp_tip_8">
+		<text>No puedes correr con el artefacto a cuestas.</text>
+	</string>
+</string_table>
