@@ -1,8 +1,19 @@
+===============================
+Colaboradores de la comunidad:
+===============================
+- Isthar (Sushi)
+- Juanjolox
+- Vladimitry
+- Indifference
+- Hi, I'm Timm! (KemBenKay)
+
+Y a toda la comunidad de StalkerSpanish por probar y participar en los eventos.
+
+===========================
+Autores de assets usados:
+===========================
 - r_populik
 - Dynamic
 - AyyKyu
-- Isthar
 - Solarint
-- Juanjolox
 - CEMENT
-- Vladimitry
