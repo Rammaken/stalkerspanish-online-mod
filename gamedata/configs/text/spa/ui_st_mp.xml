@@ -184,7 +184,7 @@
 		<text>Pulsa Saltar para comprar una reaparición instantánea</text>
 	</string>
 	<string id="mp_press_jump2select_skin">
-		<text>Pulsa Saltar para seleccionar un aspecto</text>
+		<text>Pulsa Saltar para seleccionar una skin</text>
 	</string>
 	<string id="mp_press_jump2select_team">
 		<text>Pulsa Saltar para seleccionar los equipos</text>
@@ -583,10 +583,10 @@
 		<text>Recordar</text>
 	</string>
 	<string id="ui_st_mp_unique_nickname">
-		<text>Apodo</text>
+		<text>Nombre de usuario</text>
 	</string>
 	<string id="ui_st_mp_unique_nickname_change">
-		<text>Has conseguido cambiar el apodo a</text>
+		<text>Has conseguido cambiar el nombre a</text>
 	</string>
 	<string id="ui_st_team">
 		<text>Equipo</text>
@@ -733,7 +733,7 @@
 		<text>Permanentemente</text>
 	</string>
 	<string id="mp_gp_unique_nick_too_short">
-		<text>El apodo es demasiado corto.</text>
+		<text>El nombre de usuario es demasiado corto.</text>
 	</string>
 	<string id="mp_gp_unknown_error_512">
 		<text>Error de perfil</text>
