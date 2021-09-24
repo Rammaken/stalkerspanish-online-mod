@@ -42,10 +42,10 @@
 	<string id="st_wpn_saiga_descr">
 		<text>La Saiga-12 es una escopeta semiautomatica calibre 12, basada en el fusil de asalto Kalashnikov. Se encuentra disponible en una amplia gama de configuraciones. Al igual que las variantes del Kalashnikov, tiene un cerrojo rotativo, es accionada por los gases del disparo y es alimentada mediante un cargador.</text>
 	</string>
-	<string id="st_wpn_crowbar">
+	<string id="st_crowbar">
 		<text>Palanca</text>
 	</string>
-	<string id="st_wpn_crowbar_descr">
+	<string id="st_crowbar_descr">
 		<text>Una palanca a la cual los anos le han pasado factura, sin embargo los stalkers le han encontrado un nuevo uso colocandole una sierra en la punta frontal de la palanca para un mayor dano punzante en combate.</text>
 	</string>
 	<string id="st_wpn_m37">
@@ -53,5 +53,17 @@
 	</string>
 	<string id="st_wpn_m37_descr">
 		<text>La Ithaca 37 es una escopeta de corredera fabricada para el mercado civil, policial y militar. Tambien conocida como la Featherlight, utiliza una novedosa combinacion de portilla de carga/eyeccion en la parte inferior del arma que deja los lados cerrados para los elementos extranos.</text>
+	</string>
+	<string id="st_wpn_pistol_gauss">
+		<text>Pistola Gauss</text>
+	</string>
+	<string id="st_wpn_pistol_gauss_descr">
+		<text>Un arma experimental basada en el Fusil Gauss. Se logro compactar todo lo iconico de esta arma en una pequena pistola USP-Match, sin embargo debido al reducido tamano solo tiene capacidad de un disparo, el usuario debe insertar un nuevo cartucho tras cada disparo.</text>
+	</string>
+	<string id="st_wpn_mosin">
+		<text>Mosin-Nagant</text>
+	</string>
+	<string id="st_wpn_mosin_descr">
+		<text>El Mosin-Nagant es un fusil de cerrojo, con cargador de cinco cartuchos, que fue utilizado por las fuerzas armadas de la Rusia Imperial y mas tarde la Union Sovietica y diversas naciones del bloque oriental. Fue el primero en utilizar el cartucho 7,62 x 54 R.</text>
 	</string>
 </string_table>
