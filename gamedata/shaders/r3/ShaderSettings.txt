@@ -1,0 +1,12 @@
+//////////////////////////////////////////////////////////////////
+// STALKER Shaders MAX
+#ifndef SSMSettings
+#define SSMSettings
+//////////////////////////////////////////////////////////////////
+//Feature Enable/Disable: Comment a feature (Add the //) to disable, or uncomment (Remove the //) to enable.
+//////////////////////////////////////////////////////////////////
+
+//#define USE_MBLUR	//This forces Motion Blur on like -mblur. Adjust the blur amount with "r2_mblur" in the console.
+//#define CUSTOM_SHADOWMAP_RESOLUTION int(2048)	//Use a custom shadow size. Default is 1024 (1024x1024). I actually wrote this script myself :D
+
+#endif
