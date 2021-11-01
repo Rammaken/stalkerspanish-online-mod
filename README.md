@@ -9,6 +9,9 @@ Un mod centrado en mejorar y renovar completamente el multijugador de S.T.A.L.K.
 # Roadmap
 Todas las metas por realizar que tiene este proyecto
 
+Mapas nuevos: 3
+
+
 *Completadas*
 + Retrabajar completamente el modo Free for all
 + Reestructurar completamente el codigo del multijugador
