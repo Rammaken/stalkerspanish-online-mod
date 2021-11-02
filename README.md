@@ -7,12 +7,12 @@ Un mod centrado en mejorar y renovar completamente el multijugador de S.T.A.L.K.
 + **Plataforma:** S.T.A.L.K.E.R.: Call of Pripyat 1.6.02 (OMP 1.2)
 
 # Roadmap
-Todas las metas por realizar que tiene este proyecto
+Todos los aspectos ya finalizados del proyecto, se enlistan a continuación.
 
-*Completadas*
-+ Retrabajar completamente el modo Free for all
-+ Reestructurar completamente el codigo del multijugador
++ **Modos de juego (1):**
+Todos contra todos
 
-*En progreso...*
-+ Retrabajar completamente el modo Team Deathmatch
-+ Retrabajar todos los mapas
++ **Mapas (3):**
+Escuela,
+Plataforma petrolifera,
+Piscina (Remasterizado)
