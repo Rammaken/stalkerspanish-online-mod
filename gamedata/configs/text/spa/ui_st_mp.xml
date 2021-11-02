@@ -382,7 +382,7 @@
 		<text>ha cambiado a</text>
 	</string>
 	<string id="mp_team_free_stalkers">
-		<text>StalkerSpanish</text>
+		<text>Solitarios</text>
 	</string>
 	<string id="mp_team_selection">
 		<text>Selección de equipo</text>
@@ -487,10 +487,10 @@
 		<text>¡Éxito al votar!</text>
 	</string>
 	<string id="team_base_1">
-		<text>Base de Libertad</text>
+		<text>Base de los Solitarios</text>
 	</string>
 	<string id="team_base_2">
-		<text>Base de mercenarios</text>
+		<text>Base de los Bandidos</text>
 	</string>
 	<string id="ui_mp_ah">
 		<text>2. Caza de artefactos</text>
@@ -592,10 +592,10 @@
 		<text>Equipo</text>
 	</string>
 	<string id="ui_st_team1_name">
-		<text>StalkerSpanish</text>
+		<text>Solitarios</text>
 	</string>
 	<string id="ui_st_team2_name">
-		<text>Mercenarios</text>
+		<text>Bandidos</text>
 	</string>
 	<string id="ui_st_mp_create_new_account">
 		<text>Nuevo perfil</text>
