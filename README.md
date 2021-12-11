@@ -3,16 +3,22 @@ Un mod centrado en mejorar y renovar completamente el multijugador de S.T.A.L.K.
 
 # Estadisticas
 + **Autor:** Rammaken
-+ **Version:** 1.5
++ **Version:** 1.6
 + **Plataforma:** S.T.A.L.K.E.R.: Call of Pripyat 1.6.02 (OMP 1.2)
 
 # Roadmap
 Todos los aspectos ya finalizados del proyecto, se enlistan a continuación.
 
-+ **Modos de juego (1):**
++ **Modos de juego (2):**
 Todos contra todos
+Duelo por equipos
 
 + **Mapas (3):**
 Escuela,
 Plataforma petrolifera,
-Piscina (Remasterizado)
+Piscina (Remasterizado),
+Cauterizador Cerebral,
+Sotano,
+Subterraneo de Júpiter,
+Puerto de contenedores,
+Fabrica de cemento
