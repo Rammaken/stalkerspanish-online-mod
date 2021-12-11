@@ -6,4 +6,19 @@
     <string id="mp_school">
 		<text>Escuela</text>
 	</string>
+    <string id="mp_basement">
+		<text>Sotano</text>
+	</string>
+    <string id="mp_cement">
+		<text>Fabrica de Cemento</text>
+	</string>
+    <string id="mp_jupiter_undeground">
+		<text>Subterraneo de Jupiter</text>
+	</string>
+    <string id="mp_port">
+		<text>Puerto de contenedores</text>
+	</string>
+    <string id="mp_radar">
+		<text>Cauterizador Cerebral</text>
+	</string>
 </string_table>

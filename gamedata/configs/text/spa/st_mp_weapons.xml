@@ -18,23 +18,17 @@
 	<string id="st_wpn_glock18_descr">
 		<text>La Glock, a veces llamada por su fabricante Glock «Safe Action» Pistol (pistola de accion segura Glock), es una serie de pistolas semiautomaticas, o automaticas en el caso de la Glock 18, disenadas y producidas por el fabricante Glock Ges.m.b.H. de Deutsch-Wagram, Austria.</text>
 	</string>
-	<string id="st_wpn_mp5sd">
-		<text>MP5SD</text>
-	</string>
-	<string id="st_wpn_mp5sd_descr">
-		<text>A pesar de su elemento silenciador integrado, tiene la misma longitud y forma que una metralleta sin silenciador. A diferencia de la mayoria de las ametralladoras silenciadas convencionales, dispara tipos de municion estandar con el mismo efecto. No es necesario el uso de municion subsonica especial. El elemento silenciador integrado suprime el destello de boca de manera extremadamente eficaz, por lo que el arma tambien es excelente para operaciones nocturnas con amplificadores de poca luz. No es de extranar que la MP5SD sea una de las ametralladoras silenciadas mas precisas de su tipo.</text>
-	</string>
 	<string id="st_wpn_gsh18">
 		<text>GSh-18</text>
 	</string>
 	<string id="st_wpn_gsh18_descr">
 		<text>La GSh-18 es una pistola semiautomatica de 9 mm desarrollada por la Oficina de Diseno de Instrumentos KBP en Tula durante la decada de 1990. El nombre de la pistola se deriva de sus disenadores, Gryazev y Shipunov, y su capacidad de cargador de 18 rondas.</text>
 	</string>
-	<string id="st_wpn_m16a2">
-		<text>Colt M16A2</text>
+	<string id="st_wpn_aug">
+		<text>Steyr AUG A1</text>
 	</string>
-	<string id="st_wpn_m16a2_descr">
-		<text>El M16 es la designacion de las Fuerzas Armadas de los Estados Unidos para una variacion del fusil AR-15. La compania Colt compro los derechos del AR-15 a ArmaLite y actualmente solo usa esa designacion para versiones semiautomaticas del fusil. El M16 dispara el cartucho 5,56 ? 45 OTAN.</text>
+	<string id="st_wpn_aug_descr">
+		<text>El Steyr AUG es un fusil de asalto, introducido en 1978 por la compania austriaca Steyr Mannlicher, reemplazando al StG 58 de 7,62 mm.</text>
 	</string>
 	<string id="st_wpn_saiga">
 		<text>Saiga-12k</text>
@@ -48,11 +42,11 @@
 	<string id="st_crowbar_descr">
 		<text>Una palanca a la cual los anos le han pasado factura, sin embargo los stalkers le han encontrado un nuevo uso colocandole una sierra en la punta frontal de la palanca para un mayor dano punzante en combate.</text>
 	</string>
-	<string id="st_wpn_m37">
-		<text>Ithaca 37</text>
+	<string id="st_wpn_maverick88">
+		<text>Maverick 88</text>
 	</string>
-	<string id="st_wpn_m37_descr">
-		<text>La Ithaca 37 es una escopeta de corredera fabricada para el mercado civil, policial y militar. Tambien conocida como la Featherlight, utiliza una novedosa combinacion de portilla de carga/eyeccion en la parte inferior del arma que deja los lados cerrados para los elementos extranos.</text>
+	<string id="st_wpn_maverick88_descr">
+		<text>La Mossberg Maverick 88 es conocida en toda la industria como el caballo de batalla en la linea de escopetas Mossberg. La diversa seleccion de canones y accesorios disponibles permite a los tiradores adaptar su Maverick 88 para multiples aplicaciones tanto en el ambito de la caza como en la seguridad.</text>
 	</string>
 	<string id="st_wpn_pistol_gauss">
 		<text>Pistola Gauss</text>
@@ -66,4 +60,17 @@
 	<string id="st_wpn_mosin_descr">
 		<text>El Mosin-Nagant es un fusil de cerrojo, con cargador de cinco cartuchos, que fue utilizado por las fuerzas armadas de la Rusia Imperial y mas tarde la Union Sovietica y diversas naciones del bloque oriental. Fue el primero en utilizar el cartucho 7,62 x 54 R.</text>
 	</string>
+	<string id="st_wpn_aps">
+		<text>APS Stechkin</text>
+	</string>
+	<string id="st_wpn_aps_descr">
+		<text>La pistola automatica Stechkin o APS es una pistola ametralladora rusa con selector de disparo. La pistola automatica Stechkin fue originalmente calibrada para el cartucho 7,62 x 25 Tokarev. Stechkin la modifico para emplear el nuevo cartucho 9x18 Makarov, que era empleado por la nueva pistola Makarov PM, ya que era evidente que este seria el nuevo cartucho estandar para las pistolas del Ejercito Rojo. En 1951 fueron introducidas en servicio las pistolas Makarov y Stechkin, reemplazando a las viejas Tokarev TT-33.</text>
+	</string>
+	<string id="ammo_acid_shells">
+		<text>Cartuchos de acido</text>
+	</string>
+	<string id="ammo_acid_shells_descr">
+		<text>Este paquete de cartuchos de calibre 12 estan impregnados de una sustancia verde viscosa que deriva de la anomalia "Ponche de frutas". Se recomienda encarecidamente tener mucho cuidado manejando esta municion, su uso esta destinado para la Recortada de acido.</text>
+	</string>
+	
 </string_table>

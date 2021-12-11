@@ -76,13 +76,13 @@
 		<text>"Cubre a toda costa al miembro de tu equipo que cargue con los artefactos."</text>
 	</string>
 	<string id="ls_mp_tip_38">
-		<text>"No seas cabeza dura o necio y hagas un movimiento kamikaze con cualquier arma explosiva, si te matas a ti mismo con ellas perderas puntos."</text>
+		<text>"No seas necio y hagas un movimiento kamikaze con cualquier arma explosiva, si te matas a ti mismo con ellas perderas puntos."</text>
 	</string>
 	<string id="ls_mp_tip_39">
 		<text>"Puedes comunicarte con tu equipo mediante mensajes de voz. Para acceder al menú de esa opción, pulsa "$$ACTION_SPEECH_MENU_0$$" o "$$ACTION_SPEECH_MENU_1$$"."</text>
 	</string>
 	<string id="ls_mp_tip_4">
-		<text>COMBATE A MUERTE EN EQUIPO: para ganar, tu equipo deberá conseguir más puntos letales que el enemigo.</text>
+		<text>"Consejo amigo: No dejes descargando nada mientras juegas a esto. No querras jugar con lag... Creeme que no es bonito."</text>
 	</string>
 	<string id="ls_mp_tip_40">
 		<text>"Si quieres cambiar algun ajuste de la partida puedes iniciar una votación publica con la tecla "$$ACTION_VOTE_BEGIN$$"."</text>
@@ -115,7 +115,7 @@
 		<text>"Recuerda que existe la posibilidad de que tu y tu enemigo esten recargando en frente del uno al otro al mismo tiempo, esas situaciones sin duda son las mas emocionantes... ¿Que?, ¿Que donde esta el consejo? Ah si, presiona ALT + F4 para recargar mas rapido."</text>
 	</string>
 	<string id="ls_mp_tip_5">
-		<text>CAPTURA DEL ARTEFACTO: para ganar, debes llevar un determinado número de artefactos enemigos a la base.</text>
+		<text>"Es bueno tener reflejos pero ten mucho cuidado a quien le disparas, puede ser un miembro de tu equipo y si lo matas todo el equipo saldra perjudicado con un punto menos en su calificacion."</text>
 	</string>
 	<string id="ls_mp_tip_50">
 		<text>"Tambien puedes utilizar las armas de los cuerpos que estan en tu entorno, puedes tirar tu arma con la tecla "$$ACTION_DROP$$" y luego agarrar una."</text>
@@ -133,12 +133,15 @@
 		<text>"Recuerda que puedes asomarte por las esquinas, esto puede evitar que te avisten al salir de una cobertura. Sin embargo, no podras disparar mientras te ladeas."</text>
 	</string>
 	<string id="ls_mp_tip_6">
-		<text>CAPTURA DEL ARTEFACTO: para devolver un artefacto robado a tu base, tienes que matar al enemigo que lo lleve y recogerlo pulsando "$$ACTION_USE$$".</text>
+		<text>"Las armas especiales son prototipos anomalos de armas de fuego modificadas en varios aspectos por mano de algun stalker demente, estas armas son unicas y caras pero letalmente poderosas. El origen de estas viene de algunos tecnicos pioneros que quisieron experimentar con fusionar artefactos en algunas armas."</text>
 	</string>
 	<string id="ls_mp_tip_7">
 		<text>CAZA DE ARTEFACTOS: puedes destruir el artefacto activándolo. Para ello, sácalo pulsando "$$ACTION_ARTEFACT$$" y mantén "$$ACTION_WPN_FIRE$$".</text>
 	</string>
 	<string id="ls_mp_tip_8">
-		<text>No puedes correr con el artefacto a cuestas.</text>
+		<text>"Cuenta la leyenda que si te acercas a una letrina o un retrete y dices las palabras "Ocupado" aparecera un fantasma de un antiguo stalker de nombre 'Timothy'. Sin embargo esta leyenda urbana no se ha comprobado."</text>
+	</string>
+	<string id="ls_mp_tip_12">
+		<text>"A la gente no le gusta que los oprimas con armas explosivas todo el rato, intenta no hacerle bullying a alguien con el lanzagranadas o se le van a quitar las ganas de jugar."</text>
 	</string>
 </string_table>
