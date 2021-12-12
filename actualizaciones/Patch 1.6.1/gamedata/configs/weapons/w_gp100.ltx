@@ -1,0 +1,252 @@
+[wpn_gp100]:identity_immunities,weapon_probability,default_weapon_params
+GroupControlSection			= spawn_group
+discovery_dependency 		=
+$spawn                  	= "weapons\gp100"		; option for Level Editor
+$npc			 			= on							; option for Level Editor
+$prefetch 					= 8
+scheduled         			= off              		; option for ALife Simulator
+cform             			= skeleton
+class                   	= WP_PM
+description					= st_wpn_gp100_descr
+
+;Ruger Redhawk
+
+ef_weapon_type					= 5
+
+cost					= 18520
+inv_weight				= 1.386
+
+;-----------------------------------------------------------------------------
+upgrades                = up_gr_firstab_beretta, up_gr_seconab_beretta, up_gr_thirdab_beretta, up_gr_fourtab_beretta, up_gr_fifthab_beretta, up_gr_fifthcd_beretta
+installed_upgrades      =
+upgrade_scheme          = upgrade_scheme_beretta
+
+
+; ttc
+hit_power           		= 0.495, 0.495, 0.495, 0.495
+hit_impulse	 		 		= 15
+hit_type 					= fire_wound
+fire_distance           	= 400
+bullet_speed		 		= 440
+rpm                     	= 280
+rpm_empty_click 	 		= 120
+; end ttc
+
+use_aim_bullet					= true		;
+time_to_aim			= 1.0
+
+hud                     	= wpn_gp100_hud
+
+;-----------------------------------------------------------------------------
+
+misfire_probability        	= 0.005
+misfire_start_condition		= 0.6
+misfire_end_condition		= 0.01
+misfire_start_prob = 0.002 ;	     	= 0.008
+misfire_end_prob = 0.05 ;	     	= 0.08
+condition_shot_dec      	= 0.00105
+condition_queue_shot_dec	= 0.00105
+
+ammo_limit		 		= 120
+ammo_current		 	= 90
+ammo_elapsed		 	= 12
+
+ammo_mag_size		 	= 6
+
+ammo_class		  = ammo_9x18_fmj, ammo_9x18_pmm
+hand_dependence		 	= 1
+single_handed			= 1
+
+;---DOF-------------------------------------------------------------------------
+zoom_dof					= -1000, 1.0, 1000
+reload_dof				= 0.0, 0.5, 5, 1.7
+
+;--дисперси€----------------------------------------------------------------------------
+;базова€ дисперси€
+fire_dispersion_base		= 0.67		;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor = 1.1f
+crosshair_inertion		= 4.5
+
+;отдача
+cam_return = 0 ;				= 0
+cam_relax_speed         = 5		;скорость возврата в исходное положение
+cam_relax_speed_ai      = 360
+cam_dispersion          = 2.7	;увеличени§ угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 2.7	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispersion_frac		= 1.1	;ствол будет подыматьс§ на cam_dispersion*cam_dispersion_frac +- cam_dispersion*(1-cam_dispersion_frac)
+cam_max_angle			= 50.0	;максимальный угол отдачи
+cam_max_angle_horz		= 50.0	;(degree) maximum shot horizontal degree
+cam_step_angle_horz		= 1.9	;(degree) size of step camera moved in horizontal position while shooting
+
+PDM_disp_base 				= 0.85
+PDM_disp_vel_factor 		= 1.35
+PDM_disp_accel_factor 		= 1.355
+PDM_disp_crouch = 1.0 ;  				= 0.925
+PDM_disp_crouch_no_acc = 1.0 ; 			= 1.135
+
+fire_dispersion_condition_factor = 0.015 ; 0.001 ; = 0.01 ; 5		;увеличение дисперсиБEБEБEъGентаБEБEБEБEБEималБEьK изыMсе
+
+;-------------------------------------------------------------------------------
+;--- scope weapons -------------------------------------------------------------
+holder_range_modifier	= 1.0               ; во скьJБEБEраБEувеличиваетс€ eye_range
+holder_fov_modifier		= 1.0              ; во скьJБEБEраБEувеличиваетс€ eye_fov
+;-------------------------------------------------------------------------------
+
+min_radius = 0 ;              	= 0
+max_radius = 500 ; = 250 ;              	= 50
+
+hit_probability_gd_novice = 1.00 ;	= 0.80
+hit_probability_gd_stalker = 1.00 ;	= 0.80
+hit_probability_gd_veteran = 1.00 ;	= 0.80
+hit_probability_gd_master = 1.00 ;	= 0.80
+
+
+slot 			 	= 1
+animation_slot			= 1									; type of the animation that will be used
+default_to_ruck			= false
+sprint_allowed			= true
+
+inv_name			= st_wpn_gp100
+inv_name_short			= st_wpn_gp100
+
+inv_grid_width			= 2
+inv_grid_height			= 1
+inv_grid_x			= 3
+inv_grid_y			= 32
+
+upgr_icon_x			= 1724 ; 599
+upgr_icon_y			= 802 ; 559
+upgr_icon_width		= 167 ; 272
+upgr_icon_height   	= 159 ; 54
+
+kill_msg_x				= 161
+kill_msg_y				= 153
+kill_msg_width			= 37
+kill_msg_height			= 24
+
+
+;silencer_hit_power      	= 0.57
+;silencer_hit_impulse	 		= 60
+;silencer_fire_distance  	= 100
+;silencer_bullet_speed		= 250
+
+;-------------------------------------------------------------------------------
+visual                  	= dynamics\weapons\wpn_metro_revolver\wpn_revolver.ogf
+
+position                	= -0.021, -0.085, 0.0
+orientation             	= 0, 0, 0
+
+fire_point              	= 0.0, 0.133, 0.22
+
+;--STRAP PARAMETERS-----------------------------------------------------------------
+;strap_position         	= -0.1,-0.45,0.2			; position (offset) and orientation of the weapon when it is strapped
+;strap_orientation      	= 1.57,0,0						; (3rd person view)
+;strap_bone0					= bip01_spine2
+;strap_bone1					= bip01_spine1
+
+flame_particles		   	= weapons\generic_weapon03
+smoke_particles		   	= weapons\generic_shoot_00
+
+shell_point		 				= 0.0, 0.133, 0.047
+shell_dir		 				= 0.0, 0.0, 0.4
+shell_particles	 			= 
+
+;-------------------------------------------------------------------------------
+;startup_ammo           		= 90
+
+light_color		 		= 0.6,0.5,0.3
+light_range		 		= 3.0
+light_var_color		 		= 0.05
+light_var_range		 		= 0.5
+light_time 		 		= 0.2
+
+ph_mass			 		= 1
+;cost			 		= 350
+
+;addons
+scope_status				= 0
+silencer_status				= 0
+grenade_launcher_status			= 0
+
+silencer_name  			= wpn_addon_revolver_barrel		; section name for the attachable silencer
+silencer_x 					= -40;37						; offset in inventory icon
+silencer_y 					= -15;-20
+
+zoom_enabled				= true
+zoom_rotate_time			= 0.25
+scope_zoom_factor	    		= 95; 74.8
+
+snd_draw						= weapons\gp100\gp100_draw
+snd_shoot						= weapons\gp100\gp100_shoot
+snd_empty						= weapons\gp100\gp100_empty
+snd_reload						= weapons\gp100\gp100_reload, 0.8
+snd_holster						= weapons\gp100\gp100_holster
+snd_silncer_shot				= weapons\pm\pm_shoot_sil
+snd_close						= weapons\shared\generic_close
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; silencer
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;params when silencer is attached
+;similar to corresponding params without prefix silencer_
+
+;silencer_flame_particles 	= weapons\generic_weapon01
+silencer_smoke_particles 	= weapons\generic_shoot_00
+silencer_light_color			= 0.6,0.5,0.3
+silencer_light_range			= 0.01
+silencer_light_var_color	= 0.05
+silencer_light_var_range	= 0.5
+silencer_light_time 			= 0.2
+
+[wpn_gp100_hud]:hud_base
+zoom_hide_crosshair			= true
+
+item_position					= 0,0.010,0
+item_orientation				= 0,-90,0
+
+hands_position			= 0.0,-0.165,0.0
+hands_orientation		= 0,0,0
+
+hands_position_16x9			= 0.0,-0.165,0.0
+hands_orientation_16x9		= 0,0,0
+
+item_visual             	= dynamics\weapons\wpn_metro_revolver\wpn_revolver_hud.ogf
+attach_place_idx				= 0
+
+shell_point					= 0,0,0
+shell_bone              	= wpn_body
+
+fire_point					= 0,0,0
+fire_bone               	= muzzle
+
+anm_show				= kyky_revolver_two_hands_draw
+anm_hide            	= kyky_revolver_two_hands_holster
+anm_idle            	= kyky_revolver_two_hands_idle
+anm_shots				= kyky_revolver_two_hands_shoot, shoot
+anm_idle_aim			= kyky_revolver_two_hands_idle_aim
+anm_reload				= kyky_revolver_two_hands_reload, reload
+anm_idle_moving			= kyky_revolver_two_hands_idle_move
+anm_idle_sprint			= kyky_revolver_two_hands_idle_sprint
+anm_bore				= kyky_revolver_two_hands_idle
+
+anm_show_empty				= kyky_revolver_two_hands_draw
+anm_hide_empty            	= kyky_revolver_two_hands_holster
+anm_idle_empty            	= kyky_revolver_two_hands_idle
+anm_shot_l					= kyky_revolver_two_hands_shoot, shoot
+anm_idle_aim_empty			= kyky_revolver_two_hands_idle_aim
+anm_reload_empty			= kyky_revolver_two_hands_reload, reload
+anm_idle_moving_empty		= kyky_revolver_two_hands_idle_move
+anm_idle_sprint_empty		= kyky_revolver_two_hands_idle_sprint
+anm_bore_empty				= kyky_revolver_two_hands_idle
+
+gl_hud_offset_pos				= 0,0,0
+gl_hud_offset_rot				= 0,0,0
+
+lean_hud_offset_pos			= 0,0,0
+lean_hud_offset_rot			= 0,0,0
+
+aim_hud_offset_pos = -0.092800,0.035200,-0.038600
+aim_hud_offset_rot = 0.001000,0.003100,0.013500
+
+aim_hud_offset_pos_16x9 = -0.092800,0.035200,-0.038600
+aim_hud_offset_rot_16x9 = 0.001000,0.003100,0.013500

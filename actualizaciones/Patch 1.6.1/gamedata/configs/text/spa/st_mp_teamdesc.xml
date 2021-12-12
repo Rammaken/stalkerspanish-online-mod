@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="team_1_desc">
+		<text>Un grupo descentralizado de stalkers neutrales que estan dispuestos a defender sus riquezas que han conseguido en la Zona, no necesitan introduccion pues no hay nada que los represente de forma general.</text>
+	</string>
+	<string id="team_1_name">
+		<text>Faccion Solitarios</text>
+	</string>
+	<string id="team_2_desc">
+		<text>Clanes de ladrones, matones y criminales, la escoria de la Zona unificada para robar y matar a cualquiera, si desean algo lo tomaran por la fuerza como sea.</text>
+	</string>
+	<string id="team_2_name">
+		<text>Faccion Bandidos</text>
+	</string>
+</string_table>
