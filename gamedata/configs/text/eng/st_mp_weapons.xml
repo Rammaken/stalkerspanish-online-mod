@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="st_wpn_gp100">
+		<text>Ruger GP100</text>
+	</string>
+	<string id="st_wpn_gp100_descr">
+		<text>The GP100 is a family / line of five, six, seven or ten shot double action revolvers manufactured by Sturm, Ruger and Co. manufactured in the United States.</text>
+	</string>
+	<string id="st_wpn_mp7">
+		<text>MP7</text>
+	</string>
+	<string id="st_wpn_mp7_descr">
+		<text>The MP7 is a German submachine gun manufactured by Heckler and Koch that uses an unusual cartridge: the 4.6 x 30. The design is based on NATO's 1989 requirements for a weapon portable enough to be a pistol, yet powerful enough to penetrate bulletproof vests.</text>
+	</string>
+	<string id="st_wpn_glock18">
+		<text>Glock-18</text>
+	</string>
+	<string id="st_wpn_glock18_descr">
+		<text>The Glock, sometimes referred to by its manufacturer as the Glock "Safe Action" Pistol, is a series of semi-automatic, or automatic in the case of the Glock 18, pistols designed and produced by the manufacturer Glock Ges.m.b.H. of Deutsch-Wagram, Austria.</text>
+	</string>
+	<string id="st_wpn_gsh18">
+		<text>GSh-18</text>
+	</string>
+	<string id="st_wpn_gsh18_descr">
+		<text>The GSh-18 is a 9 mm semi-automatic pistol developed by the KBP Instrument Design Bureau in Tula during the 1990s. The pistol's name is derived from its designers, Gryazev and Shipunov, and its 18-round magazine capacity.</text>
+	</string>
+	<string id="st_wpn_aug">
+		<text>Steyr AUG A1</text>
+	</string>
+	<string id="st_wpn_aug_descr">
+		<text>The Steyr AUG is an assault rifle, introduced in 1978 by the Austrian company Steyr Mannlicher, replacing the 7.62 mm StG 58.</text>
+	</string>
+	<string id="st_wpn_saiga">
+		<text>Saiga-12k</text>
+	</string>
+	<string id="st_wpn_saiga_descr">
+		<text>The Saiga-12 is a semi-automatic 12 gauge shotgun, based on the Kalashnikov assault rifle. It is available in a wide range of configurations. Like the Kalashnikov variants, it has a rotary bolt, is triggered by the gases from the shot and is fed by a magazine.</text>
+	</string>
+	<string id="st_crowbar">
+		<text>Crowbar</text>
+	</string>
+	<string id="st_crowbar_descr">
+		<text>A crowbar to which the years have taken their toll, however the stalkers have found a new use for it by placing a saw on the front end of the crowbar for greater puncture damage in combat.</text>
+	</string>
+	<string id="st_wpn_maverick88">
+		<text>Maverick 88</text>
+	</string>
+	<string id="st_wpn_maverick88_descr">
+		<text>The Mossberg Maverick 88 is known throughout the industry as the workhorse in the Mossberg line of shotguns. The diverse selection of barrels and accessories available allows shooters to customize their Maverick 88 for multiple applications in both hunting and security.</text>
+	</string>
+	<string id="st_wpn_pistol_gauss">
+		<text>Gauss Pistol</text>
+	</string>
+	<string id="st_wpn_pistol_gauss_descr">
+		<text>An experimental weapon based on the Gauss Rifle. It managed to compact all the iconic features of this weapon into a small USP-Match pistol, however due to the small size it only has a single shot capacity, the user must insert a new cartridge after each shot.</text>
+	</string>
+	<string id="st_wpn_mosin">
+		<text>Mosin-Nagant</text>
+	</string>
+	<string id="st_wpn_mosin_descr">
+		<text>The Mosin-Nagant is a bolt-action rifle, with a five-round magazine, which was used by the armed forces of Imperial Russia and later the Soviet Union and several Eastern Bloc nations. It was the first to use the 7.62 x 54 R cartridge.</text>
+	</string>
+	<string id="st_wpn_aps">
+		<text>APS Stechkin</text>
+	</string>
+	<string id="st_wpn_aps_descr">
+		<text>The Stechkin automatic pistol or APS is a Russian machine pistol with a trigger selector. The Stechkin automatic pistol was originally calibrated for the 7.62 x 25 Tokarev cartridge. Stechkin modified it to use the new 9x18 Makarov cartridge, which was used by the new Makarov PM pistol, as it was evident that this would be the new standard cartridge for Red Army pistols. In 1951 the Makarov and Stechkin pistols were introduced into service, replacing the old Tokarev TT-33.</text>
+	</string>
+	<string id="ammo_acid_shells">
+		<text>Acid cartridges</text>
+	</string>
+	<string id="ammo_acid_shells_descr">
+		<text>This package of 12 gauge cartridges are impregnated with a green viscous substance derived from the "Fruit Punch" anomoly. It is strongly recommended that great care be taken when handling this ammunition, as it is intended for use in the Acid Shot.</text>
+	</string>
+	
+</string_table>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+    <string id="mp_oil_rig">
+		<text>Oil rig</text>
+	</string>
+    <string id="mp_school">
+		<text>School</text>
+	</string>
+    <string id="mp_basement">
+		<text>Basement</text>
+	</string>
+    <string id="mp_cement">
+		<text>Cement Factory</text>
+	</string>
+    <string id="mp_jupiter_undeground">
+		<text>Jupiter Underground</text>
+	</string>
+    <string id="mp_port">
+		<text>Containers port</text>
+	</string>
+    <string id="mp_radar">
+		<text>Brain Scorcher</text>
+	</string>
+</string_table>

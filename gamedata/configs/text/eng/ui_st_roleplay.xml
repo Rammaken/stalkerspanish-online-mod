@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="mp_community_selection">
+		<text>Seleccionar una agrupacion</text>
+	</string>
+	<string id="rp_team_1_name">
+		<text>Bandidos</text>
+	</string>
+	<string id="rp_team_2_name">
+		<text>Deber</text>
+	</string>
+	<string id="rp_team_3_name">
+		<text>Cientificos</text>
+	</string>
+	<string id="rp_team_4_name">
+		<text>Libertad</text>
+	</string>
+	<string id="rp_team_5_name">
+		<text>Mercenarios</text>
+	</string>
+	<string id="rp_team_6_name">
+		<text>Militares</text>
+	</string>
+	<string id="rp_team_7_name">
+		<text>Monolith</text>
+	</string>
+	<string id="rp_team_8_name">
+		<text>Solitarios</text>
+	</string>
+	<string id="rp_team_9_name">
+		<text>Cielo Despejado</text>
+	</string>
+	<string id="rp_team_1_desc">
+		<text>Miembros del submundo criminal, que llegaron a la Zona por diversas razones: para ganar dinero vendiendo artefactos, para esconderse de la ley, para comprar o vender armas. Hay muchos elementos de este tipo en la Zona, desde delincuentes de poca monta hasta criminales serios. La mayoria estan unidos en bandas. Aunque todavia no hay una organizacion de bandidos unificada en la Zona. Molestan mucho a los stalkers ordinarios.</text>
+	</string>
+	<string id="rp_team_2_desc">
+		<text>Una agrupacion paramilitar. Sus miembros se rigen por un estricto codigo de conducta militar, con una disciplina y una parafernalia militar bastante estrictas. La ideologia del grupo se basa en la proteccion de los civiles. La ideologia del grupo se basa en la proteccion de la humanidad frente a los peligros de la zona. "El deber" se ocupa de los problemas internos de la zona: la destruccion de los mutantes y los bandidos.</text>
+	</string>
+	<string id="rp_team_3_desc">
+		<text>Un conjunto de grupos cientificos que operan en la Zona. Convencionalmente se les puede llamar un solo grupo, pero hay grupos separados de cientificos enviados por el gobierno para estudiar. Tienen un laboratorio de investigacion movil en las cercanias de Jupiter.</text>
+	</string>
+	<string id="rp_team_4_desc">
+		<text>Anarquistas de la Zona. Profesan la idea de que la Zona es un santuario de libertad sin restricciones para todos, por lo que las leyes, normas y convenciones del mundo exterior pierden fuerza aqui. Su lema es: "Haz lo que quieras, pero no molestes a los demas". Luchan contra los intentos de tomar el control de la Zona, asi como contra el clan de mercenarios.</text>
+	</string>
+	<string id="rp_team_5_desc">
+		<text>Aventureros y degolladores de todo el mundo que no rehuyen ningun trabajo, ni siquiera el mas sucio. El lema es logico y previsible: "El dinero nunca huele". Mientras los artefactos esten bien pagados, los mercenarios lucharan por el control de sus depositos. Equipados principalmente con armas pequenas de fabricacion occidental.</text>
+	</string>
+	<string id="rp_team_6_desc">
+		<text>Soldados que han recibido una formacion especial tras su experiencia en la Zona, o stalkers que han firmado un contrato con el ejercito. Suelen estar equipados con gran cantidad de material auxiliar y bien armados. Se utilizan sobre todo para estudiar las causas y consecuencias de las catastrofes y tambien participan en la cartografia de la zona. Pueden ir solos o en grupo.</text>
+	</string>
+	<string id="rp_team_7_desc">
+		<text>Un grupo que parece mas bien una secta religiosa. Sus miembros creen que en el centro de la Zona descansa un cristal evolutivo -el Monolito- de origen sobrenatural. La mayoria de los stalkers desprecian a los seguidores del Monolito, por considerarlos locos. Desde su formacion, el grupo ha impedido que los stalkers avancen hacia el centro de la Zona, motivados por las malas intenciones de estos hacia el Monolito.</text>
+	</string>
+	<string id="rp_team_8_desc">
+		<text>Stalkers que exploran la Zona en solitario. Estos son la mayoria, ya que ser miembro de una faccion les quita un tiempo valioso, reduciendo asi sus ingresos; ademas, algunos son simplemente, por naturaleza, propensos a la soledad y a la independencia.</text>
+	</string>
+	<string id="rp_team_9_desc">
+		<text>Un grupo pacifico cuyos miembros no son combatientes, sino exploradores, que utilizan las armas solo para defenderse. Sus principales objetivos son estudiar la Zona y mantener el equilibrio en ella. Algunos de los stalkers de Cielo Despejado no son reacios a destruir la Zona, pero se limitan a hablar en voz alta.</text>
+	</string>
+</string_table>

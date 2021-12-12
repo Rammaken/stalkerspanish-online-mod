@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="team_1_desc">
+		<text>A decentralized group of neutral stalkers who are willing to defend the wealth they have gained in the Zone, they need no introduction as there is nothing to represent them in a general way.</text>
+	</string>
+	<string id="team_1_name">
+		<text>Loners Faction</text>
+	</string>
+	<string id="team_2_desc">
+		<text>Clans of thieves, thugs and criminals, the scum of the Zone unified to rob and kill anyone, if they want something they will take it by force any way they can.</text>
+	</string>
+	<string id="team_2_name">
+		<text>Bandits Faction</text>
+	</string>
+</string_table>

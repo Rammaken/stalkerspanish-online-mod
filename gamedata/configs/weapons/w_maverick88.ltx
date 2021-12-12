@@ -1,6 +1,6 @@
-[wpn_maverick88]: identity_immunities,weapon_probability,default_weapon_params
+[wpn_maverick88]:identity_immunities,weapon_probability,default_weapon_params
 GroupControlSection			= spawn_group
-$spawn                   	= "weapons\winchester1300"					; option for Level Editor
+$spawn                   	= "weapons\wpn_maverick88"					; option for Level Editor
 $npc			 			= on				; option for Level Editor
 $prefetch 		 			= 8
 scheduled                	= off              ; option for ALife Simulator
@@ -12,72 +12,78 @@ ef_main_weapon_type			= 1
 ef_weapon_type				= 9
 
 ;----------------------------------------------------------------------------
-cost					 	= 20960
+cost					 	= 2400
 weapon_class			 	= shotgun
-inv_weight					= 2.72
+inv_weight					= 3.0
 
 upgrades                = up_gr_firstab_wincheaster1300, up_gr_seconab_wincheaster1300, up_gr_thirdab_wincheaster1300, up_gr_fourtab_wincheaster1300
-installed_upgrades      = 
+installed_upgrades      =
 upgrade_scheme          = upgrade_scheme_wincheaster1300
 
 ;--TTX----------------------------------------------------------------------------
-hit_power     				 = 0.8, 0.8, 0.8, 0.8
-hit_impulse    				 = 15
-hit_type 				  	 = fire_wound
-fire_distance       		 = 300
-bullet_speed				 = 290
+hit_power        			= 0.51, 0.51, 0.51, 0.51
+hit_impulse      			= 120
+hit_type 					= fire_wound
+fire_distance            	= 100
+bullet_speed			 	= 230			;начальная скорость пули
 rpm                      	= 85            ;60 = 1 секунда
 
 hud                      	= wpn_maverick88_hud
 
-misfire_probability        = 0.005
-misfire_start_condition		= 0.875
-misfire_end_condition		= 0.125
-misfire_start_prob = 0.002 ;	     	= 0.0065
-misfire_end_prob = 0.07 ;	     	= 0.065
-condition_shot_dec      	= 0.0019
-condition_queue_shot_dec	= 0.00215
+misfire_probability        = 0.005 ;вероятность осечки при максимальном износе  !!!old - now not working
+;изношенность, при которой появляется шанс осечки
+misfire_start_condition		= 0.6
+;изношеность при которой шанс осечки становится константным
+misfire_end_condition		= 0.1
+;шанс осечки при изношености больше чем misfireStartCondition
+misfire_start_prob	     	= 0
+;шанс осечки при изношености больше чем misfireEndCondition
+misfire_end_prob	     	= 0
+;увеличение изношености при одиночном выстреле
+condition_shot_dec      	= 0.003
+;увеличение изношености при выстреле очередью
+condition_queue_shot_dec	= 0.0035
 
 tri_state_reload			= on
 
-ammo_elapsed		 		= 6
-ammo_mag_size		 		= 6
-ammo_class		 	= ammo_12x70_buck, ammo_12x76_zhekan, ammo_12x70_buck4, ammo_12x76_sabot, ammo_12x70_flechette, ammo_12x70_bird
+ammo_elapsed		 		= 8
+ammo_mag_size		 		= 8
+ammo_class		 			= ammo_12x70_buck, ammo_12x76_zhekan
 fire_modes					= 1
 
 ;--дисперсия----------------------------------------------------------------------------
 ;базовая дисперсия
-fire_dispersion_base		= 0.8  ;угол (в градусах) базовой дисперсии оружи¤ (оружи¤ зажатого в тисках)
-control_inertion_factor		= 1.24f
-crosshair_inertion			= 6.3
+fire_dispersion_base		= 0.3  ;угол (в градусах) базовой дисперсии оружия (оружия зажатого в тисках)
+control_inertion_factor		= 1.3f
+crosshair_inertion			= 6.85
 
 ;отдача
-cam_return = 0 ;				= 0
-cam_relax_speed			= 2		;???????? ???????? ? ???????? ?????????
+cam_return				= 0
+cam_relax_speed         = 10	;скорость возврата в исходное положение
 cam_relax_speed_ai      = 360
-cam_dispersion          = 6.15		;?????????? ???? (? ????????) ? ?????? ?????????
-cam_dispersion_inc      = 6.21		;?????????e cam_dispersion ? ?????? ?????????
-cam_dispersion_frac     = 1.1		;????? ????? ?????????? ?? cam_dispersion*cam_dispersion_frac +- cam_dispersion*(1-cam_dispersion_frac)
-cam_max_angle        	= 50.0		;???????????? ???? ??????
-cam_max_angle_horz      = 50.0		;(degree) maximum shot horizontal degree
-cam_step_angle_horz     = 6.12		;(degree) size of step camera moved in horizontal position while shooting
+cam_dispersion          = 3.0	;увеличения угла (в градусах) с каждым выстрелом
+cam_dispersion_inc		= 2.0	;увеличениe cam_dispersion с каждым выстрелом
+cam_dispersion_frac		= 0.7
+cam_max_angle			= 15.0	;максимальный угол отдачи
+cam_max_angle_horz		= 15.0	;(degree) maximum shot horizontal degree
+cam_step_angle_horz		= 3.0	;(degree) size of step camera moved in horizontal position while shooting
 
-zoom_cam_relax_speed		= 0.85     ; scope & ironsight
-zoom_cam_relax_speed_ai		= 360
-zoom_cam_dispersion			= 7.11
-zoom_cam_dispersion_inc		= 6.8
-zoom_cam_dispersion_frac	= 1.1
-zoom_cam_max_angle			= 50.0
-zoom_cam_max_angle_horz		= 50.0
-zoom_cam_step_angle_horz	= 6.92
+PDM_disp_base 				= 0.5
+PDM_disp_vel_factor 		= 2.0
+PDM_disp_accel_factor 		= 2.0
+PDM_disp_crouch	 				= 1.0
+PDM_disp_crouch_no_acc 			= 1.0
 
-PDM_disp_base 				= 1.7
-PDM_disp_vel_factor 		= 1.75
-PDM_disp_accel_factor 		= 1.755
-PDM_disp_crouch = 1.0 ;  				= 0.925
-PDM_disp_crouch_no_acc = 1.0 ; 			= 2.205
+zoom_cam_relax_speed		= 10     ; scope & ironsight
+zoom_cam_relax_speed_ai		= 120.75
+zoom_cam_dispersion			= 3.0
+zoom_cam_dispersion_inc		= 2.5
+zoom_cam_dispersion_frac	= 0.7
+zoom_cam_max_angle			= 15.0
+zoom_cam_max_angle_horz		= 15.0
+zoom_cam_step_angle_horz	= 3.0
 
-fire_dispersion_condition_factor = 0.015 ; 0.001 ; = 0.01 ; 2.5	
+fire_dispersion_condition_factor = 2.5	;увеличение дисперсии в процентах при максимальном износе
 
 ;---DOF-------------------------------------------------------------------------
 zoom_dof					= 0.5, 1.0, 180
@@ -86,20 +92,20 @@ zoom_dof					= 0.5, 1.0, 180
 holder_range_modifier	= 1.0               ; во сколько раз увеличивается eye_range
 holder_fov_modifier		= 1.0              ; во сколько раз увеличивается eye_fov
 
-min_radius = 0 ;               	= 0
-max_radius = 500 ; = 250 ;               	= 50
+min_radius               	= 0
+max_radius               	= 50
 
-hit_probability_gd_novice = 1.00 ;	= 0.70
-hit_probability_gd_stalker = 1.00 ;	= 0.70
-hit_probability_gd_veteran = 1.00 ;	= 0.70
-hit_probability_gd_master = 1.00 ;	= 0.70
+hit_probability_gd_novice	= 0.70
+hit_probability_gd_stalker	= 0.70
+hit_probability_gd_veteran	= 0.70
+hit_probability_gd_master	= 0.70
 
 ;-------------------------------------------------------------------------------
 position                 	= -0.024, -0.097, 0.
-orientation              	= 0, -4, 0      ;значение устанавливаетсЯ в градусах
+orientation              	= 0, -4, 0      ;значение устанавливается в градусах
 
 shell_point				= 0.0, 0.180, 0.647
-shell_particles         = weapons\generic_shells_shotgun
+shell_particles         =
 
 fire_point              = 0.0, 0.158, 0.647
 fire_point2				= 0.0, 0.158, 0.647
@@ -117,25 +123,23 @@ inv_grid_height				= 1
 inv_grid_x					= 0
 inv_grid_y					= 30
 
-upgr_icon_x			= 1724 ; 304
-upgr_icon_y			= 802 ; 627
-upgr_icon_width		= 167 ; 295
-upgr_icon_height   	= 159 ; 110
+upgr_icon_x			= 8
+upgr_icon_y			= 533
+upgr_icon_width		= 293
+upgr_icon_height   	= 59
 
 kill_msg_x			= 171
 kill_msg_y			= 104
 kill_msg_width		= 75
 kill_msg_height		= 20
 
-flame_particles         = weapons\generic_weapon05
-smoke_particles         = weapons\generic_shoot_00
-grenade_flame_particles = weapons\generic_weapon01
-
-rpm_empty_click 	   	= 120
+flame_particles		   	= weapons\generic_weapon05
+smoke_particles		   	= weapons\generic_shoot_00
+rpm_empty_click 	   	= 200
 
 ;--STRAP PARAMETERS-----------------------------------------------------------------
 ;под мишкой
-strap_position         		= -0.30,-0.10,0.05			; position (offset) and orientation of the weapon when it is strapped
+strap_position         		= -0.26,-0.10,0.05			; position (offset) and orientation of the weapon when it is strapped
 strap_orientation      		= -15,-9,110				; (3rd person view in degrees)
 strap_bone0					= bip01_spine2
 strap_bone1					= bip01_spine1
@@ -157,8 +161,9 @@ silencer_status				= 0
 grenade_launcher_status		= 0
 
 zoom_enabled				= true
-scope_zoom_factor       = 90 ; 	    	= 85
+scope_zoom_factor	    	= 95
 
+;звуки
 snd_draw					= weapons\maverick88\maverick88_draw
 snd_holster					= weapons\maverick88\maverick88_holster
 snd_shoot					= weapons\maverick88\maverick88_shoot

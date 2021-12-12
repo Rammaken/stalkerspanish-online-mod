@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="ls_header">
+		<text>MANUAL FOR SURVIVAL ON THE BATTLEFIELD</text>
+	</string>
+	<string id="ls_tip_number">
+		<text>Entrada n.є</text>
+	</string>
+	<string id="ls_mp_tip_9">
+		<text>"Flashlights help you in dark places, but carrying one on you ruins any stealth attempt you make and also that of the other players carrying it, the bulb will always be glowing dull in the dark when it is off. Interpret this as an advantage or disadvantage."</text>
+	</string>
+	<string id="ls_mp_tip_1">
+		<text>"Make as many kills as possible is important, only in this way you will be able to rank up and unlock new equipment that will be crucial in battle, and remember... if someone passes you in terms of rank you will be at a great disadvantage in the level of weaponry."</text>
+	</string>
+	<string id="ls_mp_tip_11">
+		<text>"Grenades are your best companion in battle, a good explosion can knock someone out in a closed room."</text>
+	</string>
+	<string id="ls_mp_tip_13">
+		<text>"Items in yellow represent equipment that you don't have enough money for, while those in red represent that you still lack the rank to buy them."</text>
+	</string>
+	<string id="ls_mp_tip_14">
+		<text>"Create your own equipment kits with the slots on the right side of the purchase menu, calculate your prices and organize different combinations of weaponry for any situation during the game."</text>
+	</string>
+	<string id="ls_mp_tip_15">
+		<text>"As cliche as it may sound, switching to your secondary weapon is faster than reloading in front of the enemy, so you should always carry a knife or a pistol with you."</text>
+	</string>
+	<string id="ls_mp_tip_17">
+		<text>"You can activate an artifact to create an anomaly. To do this, remove the artifact by pressing "$$ACTION_ARTEFACT$$" and hold "$$ACTION_WPN_FIRE$$". The anomaly that appears will be as dangerous to your enemies as it is to you."</text>
+	</string>
+	<string id="ls_mp_tip_18">
+		<text>"Don't jump without thinking, on the battlefield apart from players there are anomalies in your environment, be careful because dying from one will subtract one point from your current score."</text>
+	</string>
+	<string id="ls_mp_tip_2">
+		<text>ARTIFACT HUNT: to win, you must bring a certain number of artifacts to your base.</text>
+	</string>
+	<string id="ls_mp_tip_20">
+		<text>"Remember to buy accessories for your weapons so you'll have better performance with them, whether it's a silencer to go stealthy or a grenade launcher for tight places."</text>
+	</string>
+	<string id="ls_mp_tip_22">
+		<text>"THE STEALTH FACTOR IS IMPORTANT! Players are often distracted during fights with more than three people, if you are good at moving crouching or sneaking around without them noticing, you can have many chances to stab someone in the back and earn more points and money than with a normal kill."</text>
+	</string>
+	<string id="ls_mp_tip_23">
+		<text>"Shotguns are brutal and effective, in a confined space they will come in handy if you know how to use them."</text>
+	</string>
+	<string id="ls_mp_tip_24">
+		<text>"Never stand still, if you need cover do it behind a sturdy object such as large boxes or concrete walls, other objects are prone to being pierced by bullets."</text>
+	</string>
+	<string id="ls_mp_tip_26">
+		<text>"Shoot for the head whenever you can, it's an assured kill 100% of the time."</text>
+	</string>
+	<string id="ls_mp_tip_27">
+		<text>Don't get too agitated during combat or you could be immobilized without a drop of energy and then you would be a static target for your enemy."</text>
+	</string>
+	<string id="ls_mp_tip_28">
+		<text>"Put your grenades to good use and aim well when throwing them, make sure they are not a waste."</text>
+	</string>
+	<string id="ls_mp_tip_29">
+		<text>"Don't throw yourself from high places, you may be able to parry about 5 bullets with your chest but not the hit against concrete when throwing yourself off a tower. If you make these mistakes one point will be subtracted from your current score."</text>
+	</string>
+	<string id="ls_mp_tip_3">
+		<text>DEATHMATCH: score more lethal points than anyone else to win.</text>
+	</string>
+	<string id="ls_mp_tip_30">
+		<text>"If you are in a tricky situation at high altitude, jumping long distances from one building or platform to another may give you an advantage to escape but be careful, if you fall, your death may be inevitable and you will lose a point in your current score."</text>
+	</string>
+	<string id="ls_mp_tip_31">
+		<text>"Always keep an eye on your health bar, if you need to patch yourself up at any time you can buy medkits in the purchase menu before respawning."</text>
+	</string>
+	<string id="ls_mp_tip_35">
+		<text>"The minimap indicates the direction of the artifact. If the arrow points up, the artifact is above your current position. If it shows down, it is below."</text>
+	</string>
+	<string id="ls_mp_tip_36">
+		<text>"All players who die will drop a backpack, these you can collect to earn bonus money. This is known as 'Confirm kills'."</text>
+	</string>
+	<string id="ls_mp_tip_37">
+		<text>"Cover at all costs the member of your team who carries the artifacts."</text>
+	</string>
+	<string id="ls_mp_tip_38">
+		<text>"Don't be foolish and make a kamikaze move with any explosive weapon, if you kill yourself with them you will lose points."</text>
+	</string>
+	<string id="ls_mp_tip_39">
+		<text>"You can communicate with your equipment by voice message. To access the menu for that option, press "$$ACTION_SPEECH_MENU_0$$$" or "$$ACTION_SPEECH_MENU_1$$"."</text>
+	</string>
+	<string id="ls_mp_tip_4">
+		<text>"Friendly tip: Don't leave anything downloading while you play this. You don't want to play with lag.... Believe me it's not pretty."</text>
+	</string>
+	<string id="ls_mp_tip_40">
+		<text>"If you want to change a game setting you can start a public vote with the "$$ACTION_VOTE_BEGIN$$" key."</text>
+	</string>
+	<string id="ls_mp_tip_41">
+		<text>"If you want to see the list of players or scores during the game, press the "$$ACTION_SCORES$$" key."</text>
+	</string>
+	<string id="ls_mp_tip_42">
+		<text>"If you have been killed, you can respawn by pressing the "$$ACTION_JUMP$$" key."</text>
+	</string>
+	<string id="ls_mp_tip_43">
+		<text>"While in spectator mode you can access the shopping menъ with the "$$ACTION_BUY_MENU$$" key."</text>
+	</string>
+	<string id="ls_mp_tip_44">
+		<text>"Remember that communication is important, you can talk through the general chat with the "$$ACTION_CHAT$$" key and to communicate only with your team, press the "$$ACTION_CHAT_TEAM$$" key."</text>
+	</string>
+	<string id="ls_mp_tip_45">
+		<text>"Use your head and skills to dodge bullets when they are raining down on you from some direction, run, duck, move in various directions and pray to your god."</text>
+	</string>
+	<string id="ls_mp_tip_46">
+		<text>"If you're having a bad connection, don't hold down the fire button or you won't be able to control the insane blast your character will make."</text>
+	</string>
+	<string id="ls_mp_tip_47">
+		<text>"When you are at a disadvantage, throw your weapons in front of the enemy and take out your knife, if you are lucky your opponent will have pride and will challenge you to a death duel with knives.... Wait, death duel with knives!? Ehh, whatever... Defeat him like a champion or run away like a coward."</text>
+	</string>
+	<string id="ls_mp_tip_48">
+		<text>"Do not move around with a heavy weapon in your arms or your camera movement will be greatly reduced."</text>
+	</string>
+	<string id="ls_mp_tip_49">
+		<text>"Remember that there is a possibility that you and your enemy may be reloading in front of each other at the same time, ooh men, those situations are certainly the most exciting.... What, where's the tip? Ah yes, press ALT + F4 to reload faster."</text>
+	</string>
+	<string id="ls_mp_tip_5">
+		<text>"It's good to have reflexes but be very careful who you shoot, it could be a member of your team and if you kill him the whole team will be hurt with a point less in their rating."</text>
+	</string>
+	<string id="ls_mp_tip_50">
+		<text>"You can also use the weapons of the bodies around you, you can drop your weapon with the "$$ACTION_DROP$$" key and then grab one."</text>
+	</string>
+	<string id="ls_mp_tip_51">
+		<text>"If you're really bad at shooting with any weapon you can buy an RPG-7 and that way you'll almost certainly blow someone to smithereens... just don't forget that in the worst case scenario that could be you."</text>
+	</string>
+	<string id="ls_mp_tip_52">
+		<text>This guide was written by Petro Gangster and distributed by the publishing house "Cult of worship to Sergiy Grigorovich". All rights reserved, 2021.</text>
+	</string>
+	<string id="ls_mp_tip_53">
+		<text>"Aim well... Man, it's not that complicated."</text>
+	</string>
+	<string id="ls_mp_tip_55">
+		<text>"Remember that you can lean out of corners, this can prevent you from being spotted when coming out of cover. However, you will not be able to shoot while leaning out."</text>
+	</string>
+	<string id="ls_mp_tip_6">
+		<text>"Special weapons are anomalous prototypes of firearms modified in various aspects by the hand of some insane stalker, these weapons are unique and expensive but lethally powerful. The origin of these comes from some pioneering techs who wanted to experiment with fusing artifacts into some weapons."</text>
+	</string>
+	<string id="ls_mp_tip_7">
+		<text>ARTEFACT HUNT: You can destroy the artifact by activating it. To do this, activate it by pressing "$$ACTION_ARTEFACT$$" and hold "$$ACTION_WPN_FIRE$$".</text>
+	</string>
+	<string id="ls_mp_tip_8">
+		<text>"Theres a legend about if you approach a latrine or bathroom and say the words "Occupied" a ghost of a former stalker by the name of 'Timothy' will appear. However this urban legend has not been verified."</text>
+	</string>
+	<string id="ls_mp_tip_12">
+		<text>"People don't like it when you oppress them with explosive weapons all the time, try not to bully someone with the grenade launcher or they'll lose the will to play."</text>
+	</string>
+</string_table>
